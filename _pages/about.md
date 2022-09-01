@@ -2,24 +2,44 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Scientist II at <a href='https://www.a-star.edu.sg/'>A*STAR</a>, Singapore. 
 
 profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  align: center
+  image: zhenll.jpg
+  image_circular: ture # crops the image to make it circular  
+    
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome to my homepage. I am a research scientist at the Institute of High Performance Computing (<a href="https://www.a-star.edu.sg/ihpc">IHPC</a>), Agency for Science, Technology and Research (<a href="https://www.a-star.edu.sg/">A*STAR</a>), Singapore. I am also Group Manager of the <a href="https://www.a-star.edu.sg/ihpc/research/computing-intelligence">Efficient AI</a> team at IHPC, and we are devoted to improving data efficiency and computation efficiency in machine learning. Prior to joining IHPC, I received my PhD degree in Computer Science from Sichuan University in 2018, supervised by Professor <a href="http://cs.scu.edu.cn/info/1108/5359.htm">Dezhong Peng</a>. From August 2016 to August 2018, I was a visiting PhD student at the University of Birmingham in the UK, supervised by Professor <a href="http://www.cs.bham.ac.uk/~xin/">Xin Yao</a>.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research is mainly on efficient machine learning and safe & robust AI. Related research topics include representation learning, transfer learning, multimodal learning, model compression, neural architecture search, adversarial attacks & defences, etc.<a href="https://scholar.google.com/citations?user=dtv_LZkAAAAJ&hl=en"><img src="assets/img/gs.png" width="12px"></a>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**[Job Vacancies]** We have 2 research scientist positions available at A*STAR, Singapore. More details are available <a href="/assets/pdf/IHPC-AI-Jobs-EAI-Scientist.pdf" target="_blank">here</a> <br><br>
+
+
+<h2 id="news">news</h2>
+
+<ul>
+  <li>[July 2022] Our paper on <i>Adversarial Multimodal Fusion with Attention Mechanism</i> is accepted by Medical Image Analysis.</li>
+  <li>[February 2022] Our paper on <i>Deep Multimodal Transfer Learning</i> is published in the IEEE Transactions on Neural Networks and Learning Systems.</li>
+  <li>[January 2022] Our paper on <i>Efficient Sharpness-Aware Minimization for Improved Training of Neural Networks</i> is accepted by ICLR-2022.</li>
+  <li>[August 2021] Our paper on <i>Evolutionary Multi-Objective Model Compression for Deep Neural Networks</i> is published in the IEEE Computational Intelligence Magazine.</li>
+  <li>[June 2021] Our paper on <i>Deep Semi-Supervised Multi-View Learning with Increasing Views</i> is accepted by the IEEE Transactions on Cybernetics.</li>
+  <li>[April 2021] Our paper on <i>Video Corpus Moment Retrieval with Contrastive Learning</i> is accepted by SIGIR-2021.</li>
+  <li>[April 2021] Our paper on <i>Learning Cross-modal Retrieval with Noisy Labels</i> is accepted by CVPR-2021.</li>
+  <li>[April 2021] Our paper on <i>Natural Language Video Localization</i> is accepted by the IEEE Transactions on Pattern Analysis and Machine Intelligence.</li>
+  <li>[March 2020] I am selected as a member of the Executive Area Chair Committee for <a href="http://valser.org/article-364-1.html"  target="_blank">Vision And Learning SEminar (VALSE)</a>.</li>
+</ul>
+<br>
+
+<h2 id="news">contact</h2>
+
+Email: zhenll [at] ihpc.a-star.edu.sg
+
+Address: 1 Fusionopolis Way, #16-16 Connexis North, Singapore 138632
