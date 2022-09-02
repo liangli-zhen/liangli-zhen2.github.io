@@ -40,6 +40,5 @@ My research is mainly on efficient machine learning and safe & robust AI. Relate
 
 <h2 id="news">contact</h2>
 
-Email: zhenll [at] ihpc.a-star.edu.sg
-
-Address: 1 Fusionopolis Way, #16-16 Connexis North, Singapore 138632
+<i style="font-size:24px" class="fa">&#xf0e0;</i> zhenll [at] ihpc.a-star.edu.sg
+<i style="font-size:24px" class="fa">&#xf041;</i> 1 Fusionopolis Way, #16-16 Connexis North, Singapore 138632
