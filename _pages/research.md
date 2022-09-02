@@ -5,7 +5,7 @@ permalink: /research/
 description: My research interests include <i>machine intelligence</i> and <i>evolutionary computation</i>. Currently, I focus on machine learning, multi-objective optimisation, and their applications in real-world systems.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [research]
 horizontal: false
 ---
 
@@ -15,8 +15,7 @@ Machine learning is the science of getting computers to act without being explic
 
 <i>Definition: A computer program is said to learn from experience $$\mathcal{E}$$ with respect to some class of tasks $$\mathcal{T}$$and performance measure $$\mathcal{P}$$, if its performance at tasks in $$\mathcal{T}$$, as measured by $$\mathcal{P}$$, improves with experience $$\mathcal{E}$$.</i>
 
-<p>
-Our work in machine learning includes manifold learning, sparse representation, kernel methods, and deep neural networks.</p>
+Our work in machine learning includes manifold learning, multimodal learning, and safe & robust learning.
 
 <i>Manifold learning and subspace analysis</i>
 <ul>
@@ -66,14 +65,9 @@ $$
   \end{aligned} 
 $$
 
-where $$\mathbf{x} = (x_1, x_2, \dots, x_d) \in \Omega$$ is the decision vector; $$\mathbf{f} \in \Re^m$$ is the objective vector. The decision vector $$\mathbf{x}$$ is composed of $$d$$ decision variables and the objective vector $$\mathbf{f}$$ is composed of $$m$$ objective functions, and the objective function $$f_i(\mathbf{x})$$ maps $$\mathbf{x}$$ from $$\Omega$$ to a scaler. $$g_i(\mathbf{x})$$ and $$h_j(\mathbf{x})$$ are known as the inequality and equality constraints, respectively.
+where $$\mathbf{x} = (x_1, x_2, \dots, x_d) \in \Omega$$ is the decision vector; $$\mathbf{f} \in \Re^m$$ is the objective vector. The decision vector $$\mathbf{x}$$ is composed of $$d$$ decision variables and the objective vector $$\mathbf{f}$$ is composed of $$m$$ objective functions, and the objective function $$f_i(\mathbf{x})$$ maps $$\mathbf{x}$$ from $$\Omega$$ to a scaler. $$g_i(\mathbf{x})$$ and $$h_j(\mathbf{x})$$ are known as the inequality and equality constraints, respectively. If a MOP has more than three objectives, it is called a <em>many-objective optimisation problem</em> (MaOP).
 	
-If a MOP has more than three objectives, it is called a <em>many-objective optimisation problem</em> (MaOP). Our work in many-objective optimisation includes the design of many-objective evolutionary algorithms, test problem construction, and visualisation.</p>
-
-<i>Multi-objective optimisation in deep learning</i>
-<ul>	
-<li>[<a href="https://ieeexplore.ieee.org/abstract/document/9492169/">CIM21</a>] An evolutionary multiobjective model compression method for deep neural networks</li>
-</ul>
+Our work in multi-objective optimisation includes test problem construction, multi-objective optimisation visualisation, and design of efficient multi-objective evolutionary algorithms.
 	
 <i>Test problems for many-objective optimisation</i>
 <ul>
@@ -85,4 +79,10 @@ If a MOP has more than three objectives, it is called a <em>many-objective optim
 <li>[<a href="https://authors.elsevier.com/c/1aA174ZQDzkdh">INS20</a>] A visualisation method for multiobjective solution sets using objective reduction</li>
 <li>[<a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8065139">CIM17</a>] A guide on how to read many-objective solution sets in parallel coordinates</li>
 <li>[<a href="https://liangli-zhen.github.io/papers/APC.pdf">SEAL17</a>] Adjusting parallel coordinates for more explicit observation of many-objective search</li>
+</ul>
+
+
+<i>Multi-objective optimisation in deep learning</i>
+<ul>	
+<li>[<a href="https://ieeexplore.ieee.org/abstract/document/9492169/">CIM21</a>] An evolutionary multiobjective model compression method for deep neural networks</li>
 </ul><br>
