@@ -1,8 +1,8 @@
 ---
 layout: page
-title: service
-permalink: /service/
-description:
+title: services
+permalink: /services/
+description: I am involved in the following professional activities
 nav: true
 nav_order: 4
 display_categories: [service]
