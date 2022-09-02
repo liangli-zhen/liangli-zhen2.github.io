@@ -17,4 +17,4 @@ nav_order: 3
 
 </div>
 
-Copyright: The copyright of the papers above is owned by the respective publishers. The electronic versions here are made available under the CC-BY-NC-ND 4.0 license <a href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>http://creativecommons.org/licenses/by-nc-nd/4.0/</a>.
+Copyright: The copyright of the papers above is owned by the respective publishers. The electronic versions here are made available under the <a href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>CC-BY-NC-ND 4.0 license</a>.
