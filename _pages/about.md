@@ -20,7 +20,7 @@ Welcome to my homepage. I am a research scientist at the Institute of High Perfo
 
 My research is mainly on efficient machine learning and safe & robust AI. Related research topics include representation learning, transfer learning, multimodal learning, model compression, neural architecture search, adversarial attacks & defences, etc.<a href="https://scholar.google.com/citations?user=dtv_LZkAAAAJ&hl=en"><img src="assets/img/gs.png" width="12px"></a>
 
-**[Job Vacancies]** We have 2 research scientist positions available at A*STAR, Singapore. More details are available <a href="/assets/pdf/IHPC-AI-Jobs-EAI-Scientist.pdf" target="_blank">here</a> <br><br>
+**[Job Vacancies]** We have 2 research scientist positions available at A*STAR, Singapore. More details are available <a href="/assets/pdf/IHPC-AI-Jobs-EAI-Scientist.pdf" target="_blank">here</a>. <br><br>
 
 
 <h2 id="news">news</h2>
@@ -40,5 +40,5 @@ My research is mainly on efficient machine learning and safe & robust AI. Relate
 
 <h2 id="news">contact</h2>
 
-<i style="font-size:24px" class="fa">&#xf0e0;</i> zhenll [at] ihpc.a-star.edu.sg
-<i style="font-size:24px" class="fa">&#xf041;</i> 1 Fusionopolis Way, #16-16 Connexis North, Singapore 138632
+<i style="font-size:14px" class="fa">&#xf0e0;</i> zhenll [at] ihpc.a-star.edu.sg<br>
+<i style="font-size:14px" class="fa">&#xf041;</i> 1 Fusionopolis Way, #16-16 Connexis North, Singapore 138632
