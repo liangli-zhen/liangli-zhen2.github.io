@@ -40,5 +40,5 @@ My research is mainly on efficient machine learning and safe & robust AI. Relate
 
 <h2 id="news">contact</h2>
 
-&nbsp; &nbsp; <i style="font-size:14px" class="fa">&#xf0e0;</i> zhenll [at] ihpc.a-star.edu.sg<br>
-&nbsp; &nbsp; <i style="font-size:14px" class="fa">&#xf041;</i> 1 Fusionopolis Way, #16-16 Connexis North, Singapore 138632
+&nbsp; &nbsp; &nbsp; &nbsp; <i style="font-size:14px" class="fa">&#xf0e0;</i> zhenll [at] ihpc.a-star.edu.sg<br>
+&nbsp; &nbsp; &nbsp; &nbsp; <i style="font-size:14px" class="fa">&#xf041;</i> 1 Fusionopolis Way, #16-16 Connexis North, Singapore 138632
