@@ -2,7 +2,7 @@
 layout: page
 permalink: /awards/
 title: awards
-description:
+description: I am honoured to be given the following awards and scholarships
 nav: true
 nav_order: 5
 ---
