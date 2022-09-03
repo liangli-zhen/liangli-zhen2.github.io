@@ -21,7 +21,7 @@ social: false  # includes social icons at the bottom of the page
 
 <p align="justify">My research is mainly on machine learning and optimisation. Related research topics include representation learning, multimodal learning, safe & robust machine learning, neural architecture search, evolutionary multi-objective opitimisation, etc.<a href="https://scholar.google.com/citations?user=dtv_LZkAAAAJ&hl=en"><img src="assets/img/gs.png" width="12px"></a></p>
 
-**[Job Vacancies]** We have 2 research scientist positions available at A*STAR, Singapore. Please click <a href="/assets/pdf/IHPC-AI-Jobs-EAI-Scientist.pdf" target="_blank">here</a> for more details.
+**[Job Vacancies]** We have 2 AI research scientist positions available at A*STAR, Singapore. Please click <strong><a href="/assets/pdf/IHPC-AI-Jobs-EAI-Scientist.pdf" target="_blank">here</a></strong> for more details.
 
 
 <h2 id="news">news</h2>
@@ -35,7 +35,7 @@ social: false  # includes social icons at the bottom of the page
   <li>[Apr 2021] Our paper on Video Corpus Moment Retrieval with Contrastive Learning is accepted by SIGIR-2021.</li>
   <li>[Apr 2021] Our paper on Learning Cross-modal Retrieval with Noisy Labels is accepted by CVPR-2021.</li>
   <li>[Apr 2021] Our paper on Natural Language Video Localization: A Revisit in Span-based Question Answering Framework is accepted by the IEEE Trans. on Pattern Analysis and Machine Intelligence.</li>
-  <li>[Mar 2020] I am selected as a member of Executive Area Chair Committee for <a href="http://valser.org/article-364-1.html"  target="_blank">Vision And Learning SEminar (VALSE)</a>.</li>
+  <li>[Mar 2020] I am selected as Member of the Executive Area Chair Committee for <a href="http://valser.org/article-364-1.html"  target="_blank">Vision And Learning SEminar (VALSE)</a>.</li>
 </ul>
 
 <h2 id="news">contact</h2>
