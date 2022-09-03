@@ -11,8 +11,9 @@ horizontal: false
 
 <strong>machine learning</strong>
 
-Machine learning is the science of getting computers to act without being explicitly programmed. For a learning system, the experience is the process of analysing the collected data (and providing predictions to interact with the environment). From this perspective, machine learning is learning from the data. Prof. Tom M. Mitchell provided a widely quoted definition of learning$$^1$$.
-
+<p align="justify">
+Machine learning is the science of getting computers to act without being explicitly programmed. For a learning system, the experience is the process of analysing the collected data (and providing predictions to interact with the environment). From this perspective, machine learning is learning from the data. Prof. Tom M. Mitchell provided a widely quoted definition of learning in the book of Machine Learning, McGraw Hill, 1997.
+</p>
 <i>Definition: A computer program is said to learn from experience $$\mathcal{E}$$ with respect to some class of tasks $$\mathcal{T}$$and performance measure $$\mathcal{P}$$, if its performance at tasks in $$\mathcal{T}$$, as measured by $$\mathcal{P}$$, improves with experience $$\mathcal{E}$$.</i>
 
 Our work in machine learning includes manifold learning, multimodal learning, and safe & robust learning.
@@ -53,8 +54,8 @@ Our work in machine learning includes manifold learning, multimodal learning, an
 <strong>multi-objective optimisation</strong>
 
 
-Multi-objective optimisation, which addresses optimisation problems involving multiple (conflicting) objective functions to be optimized simultaneously, has attracted increasing interest in the evolutionary computation community. A multi-objective optimisation problem (MOP) can be generally
-formulated as follows:
+<p align="justify">Multi-objective optimisation, which addresses optimisation problems involving multiple (conflicting) objective functions to be optimized simultaneously, has attracted increasing interest in the evolutionary computation community. A multi-objective optimisation problem (MOP) can be generally
+formulated as follows:</p>
 
 $$
   \begin{aligned}
@@ -67,14 +68,14 @@ $$
 
 where $$\mathbf{x} = (x_1, x_2, \dots, x_d) \in \Omega$$ is the decision vector; $$\mathbf{f} \in \Re^m$$ is the objective vector. The decision vector $$\mathbf{x}$$ is composed of $$d$$ decision variables and the objective vector $$\mathbf{f}$$ is composed of $$m$$ objective functions, and the objective function $$f_i(\mathbf{x})$$ maps $$\mathbf{x}$$ from $$\Omega$$ to a scaler. $$g_i(\mathbf{x})$$ and $$h_j(\mathbf{x})$$ are known as the inequality and equality constraints, respectively. If a MOP has more than three objectives, it is called a <em>many-objective optimisation problem</em> (MaOP).
 
-Our work in multi-objective optimisation includes test problem construction, multi-objective optimisation visualisation, and design of efficient multi-objective evolutionary algorithms.
+<p align="justify"> Our work in multi-objective optimisation includes test problem construction, multi-objective optimisation visualisation, and design of efficient multi-objective evolutionary algorithms. </p>
 
-<i>Test problems for many-objective optimisation</i>
+<i>Test problems for multi-objective optimisation</i>
 <ul>
 <li>[<a href="https://arxiv.org/abs/1806.02706">ArVix22</a>] A benchmark for multiobjective optimisation</li>
 </ul>
 
-<i>Visualisation for many-objective optimisation</i>
+<i>Visualisation for multi-objective optimisation</i>
 <ul>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/INS2020_Objective_reduction_for_visualising_many-objective_solution_sets.pdf">INS20</a>] A visualisation method for multi-objective solution sets using objective reduction</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/CIM2017_How_to_read_many-objective_solution_sets_in_parallel_coordinates.pdf">CIM17</a>] A guide on how to read many-objective solution sets in parallel coordinates</li>
