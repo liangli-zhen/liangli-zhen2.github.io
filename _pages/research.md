@@ -66,7 +66,7 @@ $$
   \end{aligned}
 $$
 
-where $$\mathbf{x} = (x_1, x_2, \dots, x_d) \in \Omega$$ is the decision vector; $$\mathbf{f} \in \Re^m$$ is the objective vector. The decision vector $$\mathbf{x}$$ is composed of $$d$$ decision variables and the objective vector $$\mathbf{f}$$ is composed of $$m$$ objective functions, and the objective function $$f_i(\mathbf{x})$$ maps $$\mathbf{x}$$ from $$\Omega$$ to a scaler. $$g_i(\mathbf{x})$$ and $$h_j(\mathbf{x})$$ are known as the inequality and equality constraints, respectively. If a MOP has more than three objectives, it is called a <em>many-objective optimisation problem</em> (MaOP).
+where $$\mathbf{x} = (x_1, x_2, \dots, x_d) \in \Omega$$ is the decision vector; $$\mathbf{f} \in \Re^m$$ is the objective vector. The decision vector $$\mathbf{x}$$ is composed of $$d$$ decision variables and the objective vector $$\mathbf{f}$$ consists of $$m$$ objective functions, in which each $$f_i(\mathbf{x})$$ maps $$\mathbf{x}$$ from $$\Omega$$ to a scaler. The conditions on $$g_i(\mathbf{x})$$ and $$h_j(\mathbf{x})$$ are known as the inequality and equality constraints, respectively. If the MOP has more than three objectives, it is called a <em>many-objective optimisation problem</em> (MaOP).
 
 <p align="justify"> Our work in multi-objective optimisation includes test problem construction, multi-objective optimisation visualisation, and design of efficient multi-objective evolutionary algorithms. </p>
 
