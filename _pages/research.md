@@ -16,7 +16,7 @@ Machine learning is the science of getting computers to act without being explic
 </p>
 <i>Definition: A computer program is said to learn from experience $$\mathcal{E}$$ with respect to some class of tasks $$\mathcal{T}$$and performance measure $$\mathcal{P}$$, if its performance at tasks in $$\mathcal{T}$$, as measured by $$\mathcal{P}$$, improves with experience $$\mathcal{E}$$.</i>
 
-Our work in machine learning includes manifold learning, multimodal learning, and safe & robust learning.
+Our work in machine learning includes manifold learning, efficient learning, and safe & robust learning.
 
 <i>Manifold learning and subspace analysis</i>
 <ul>
@@ -28,12 +28,14 @@ Our work in machine learning includes manifold learning, multimodal learning, an
 <li>[<a href="http://www.jsoftware.us/vol8/jsw0802-21.pdf">JSW13</a>] A manifold learning method for dimension reduction</li>
 </ul>
 
-<i>Multimodal learning</i>
+<i>Efficient machine learning</i>
 <ul>
-<li>[<a href="https://liangli-zhen.github.io/assets/pdf/TPAMI2022_Natural_Language_Video_Localization_A_Revisit_in_Span-Based_Question_Answering_Framework.pdf">TPAMI22</a>] A multimodal learning method for video moment retrieval</li>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/TPAMI2022_Natural_Language_Video_Localization_A_Revisit_in_Span-Based_Question_Answering_Framework.pdf">TPAMI22</a>] An efficient learning method for natural language video localisation</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/TNNLS2022_DMTL_CMR.pdf">TNNLS22</a>] A multimodal transfer learning method</li>
-<li>[<a href="https://liangli-zhen.github.io/assets/pdf/TCYB2020_Joint%20Versus%20Independent%20Multiview%20Hashing%20for%20Cross-View%20Retrieval.pdf">TCYB21</a>] A multi-view hashing method</li>
-<li>[<a href="https://liangli-zhen.github.io/assets/pdf/SIGIR2021_Video_corpus_moment_retrieval.pdf">SIGIR21</a>] A multimodal learning method for natural language video localisation</li>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/ICLR2022_efficient_sharpness_aware_mini.pdf">ICLR22</a>] An efficient robust optimisation method for deep neural networks</li>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/TCYB2020_Joint%20Versus%20Independent%20Multiview%20Hashing%20for%20Cross-View%20Retrieval.pdf">TCYB21</a>] An efficient hashing method for cross-view retrieval</li>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/SIGIR2021_Video_corpus_moment_retrieval.pdf">SIGIR21</a>] An efficient method for video
+corpus moment retrieval</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/CVPR2019_Deep_Supervised_Cross_modal_Retrieval.pdf">CVPR19</a>] A deep supervised cross-modal retrieval method</li>
 <li>[<a href="https://liangli-zhen.github.io/papers/SIGIR2019_Scalable_Deep_Multimodal_Learning_for_Cross-Modal_Retrieval.pdf">SIGIR19</a>] A scalable deep multimodal learning method for cross-modal retrieval</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/SVHN.pdf">MM19</a>] A separated variational hashing method for cross-modal retrieval</li>
