@@ -21,7 +21,7 @@ social: false  # includes social icons at the bottom of the page
 
 <p align="justify">My research is mainly on machine learning and optimisation. Related research topics include representation learning, multimodal learning, safe & robust machine learning, neural architecture search, evolutionary multi-objective opitimisation, etc.<a href="https://scholar.google.com/citations?user=dtv_LZkAAAAJ&hl=en"><img src="assets/img/gs.png" width="12px"></a></p>
 
-**[Job Vacancies]** We have 2 AI research scientist positions available at A*STAR, Singapore. Please click <strong><a href="/assets/pdf/IHPC-AI-Jobs-EAI-Scientist.pdf" target="_blank">here</a></strong> for more details.
+<p align="justify">**[Job Vacancies]** We have 2 AI research scientist positions available at A*STAR, Singapore. Please click <strong><a href="/assets/pdf/IHPC-AI-Jobs-EAI-Scientist.pdf" target="_blank">here</a></strong> for more details.</p>
 
 
 <h2 id="news">news</h2>
