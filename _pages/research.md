@@ -56,7 +56,7 @@ corpus moment retrieval</li>
 <strong>multi-objective optimisation</strong>
 
 
-<p align="justify">Multi-objective optimisation, which addresses optimisation problems involving multiple (conflicting) objective functions to be optimized simultaneously, has attracted increasing interest in the evolutionary computation community. A multi-objective optimisation problem (MOP) can be generally
+<p align="justify">Multi-objective optimisation, which addresses optimisation problems involving multiple (conflicting) objective functions to be optimised simultaneously, has attracted increasing interest in the evolutionary computation community. A multi-objective optimisation problem (MOP) can be generally
 formulated as follows:</p>
 
 $$
