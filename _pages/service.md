@@ -9,10 +9,12 @@ display_categories: [service]
 horizontal: false
 ---
 
-Student supervisor
+Student main supervisor
 <ul>
 <li>Sotthiwat Ekanut, <a href="https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa">
 	Singapore International Graduate Award (SINGA)</a> PhD student at the National University of Singapore. (Co-supervisor: <a href="https://www.comp.nus.edu.sg/~xiaoxk/">A/Prof Xiaokui Xiao</a>)</li>
+	
+<li>Yuxuan Lin, intern at IHPC (master student at the National University of Singapore). (Co-supervisor: <a href="https://scholar.google.com/citations?user=d4KZI8MAAAAJ&hl=en">Dr Tao Luo</a>)</li>
 </ul>
 	
 Member of the Executive Area Chair Committee (EACC) for <a href="http://valser.org/article-364-1.html">Vision And Learning SEminar (VALSE)</a>
@@ -27,6 +29,7 @@ Reviewer of Journals
 <li><a href="https://www.computer.org/csdl/journal/tp">IEEE Transactions on Pattern Analysis and Machine Intelligence</a>
 </li><li><a href="http://www.ieeesmc.org/publications/transactions-on-smc-systems">IEEE Transactions on Systems, Man and Cybernetics: Systems</a></li>
 <li><a href="https://site.ieee.org/connected-vehicles/publications/ieee-transactions-on-vehicular-technology/">IEEE Transactions on Vehicular Technology</a></li>
+<li><a href="https://www.sciencedirect.com/journal/information-fusion">Information Fusion</a></li>
 <li><a href="https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=6221020">IEEE Journal of Biomedical and Health Informatics</a></li>
 <li><a href="https://signalprocessingsociety.org/publications-resources/ieee-signal-processing-letters">IEEE Signal Processing Letters</a></li>
 <li><a href="https://www.journals.elsevier.com/pattern-recognition">Pattern Recognition</a></li>
