@@ -29,9 +29,9 @@ Reviewer of Journals
 <li><a href="https://www.computer.org/csdl/journal/tp">IEEE Transactions on Pattern Analysis and Machine Intelligence</a>
 </li><li><a href="http://www.ieeesmc.org/publications/transactions-on-smc-systems">IEEE Transactions on Systems, Man and Cybernetics: Systems</a></li>
 <li><a href="https://site.ieee.org/connected-vehicles/publications/ieee-transactions-on-vehicular-technology/">IEEE Transactions on Vehicular Technology</a></li>
-<li><a href="https://www.sciencedirect.com/journal/information-fusion">Information Fusion</a></li>
 <li><a href="https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=6221020">IEEE Journal of Biomedical and Health Informatics</a></li>
 <li><a href="https://signalprocessingsociety.org/publications-resources/ieee-signal-processing-letters">IEEE Signal Processing Letters</a></li>
+<li><a href="https://www.sciencedirect.com/journal/information-fusion">Information Fusion</a></li>
 <li><a href="https://www.journals.elsevier.com/pattern-recognition">Pattern Recognition</a></li>
 <li><a href="hhttps://www.springer.com/computer/journal/11704/">Frontiers of Computer Science</a></li>
 <li><a href="https://www.journals.elsevier.com/image-and-vision-computing/">Image and Vision Computing</a></li>
