@@ -9,7 +9,7 @@ display_categories: [service]
 horizontal: false
 ---
 
-Student main supervisor
+Student supervisor
 <ul>
 <li>Sotthiwat Ekanut, <a href="https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa">
 	Singapore International Graduate Award (SINGA)</a> PhD student at the National University of Singapore. (Co-supervisor: <a href="https://www.comp.nus.edu.sg/~xiaoxk/">A/Prof Xiaokui Xiao</a>)</li>
