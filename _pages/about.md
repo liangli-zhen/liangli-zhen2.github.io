@@ -6,7 +6,7 @@ subtitle: Scientist at <a href='https://www.a-star.edu.sg/'>A*STAR</a>, Singapor
 
 profile:
   align: left
-  image: zhenll.jpg
+  image: zhenll.png
   image_circular: ture # crops the image to make it circular  
 
 
