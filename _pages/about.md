@@ -7,7 +7,7 @@ subtitle: Scientist at <a href='https://www.a-star.edu.sg/'>A*STAR</a>, Singapor
 profile:
   align: left
   image: zhenll.png
-  image_circular: false # crops the image to make it circular  
+  image_circular: true # crops the image to make it circular  
 
 
 
