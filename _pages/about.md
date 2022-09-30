@@ -21,10 +21,10 @@ social: false  # includes social icons at the bottom of the page
 
 <p align="justify">My research is mainly on machine learning and optimisation. Related research topics include representation learning, multimodal learning, safe & robust machine learning, neural architecture search, evolutionary multi-objective optimisation, and more.<a href="https://scholar.google.com/citations?user=dtv_LZkAAAAJ&hl=en"><img src="assets/img/gs.png" width="12px"></a></p>
 
-<p align="justify"><strong>[Job Vacancies]</strong> We have 2 AI research scientist positions available at A*STAR, Singapore. Please click <strong><a href="/assets/pdf/IHPC-AI-Jobs-EAI-Scientist.pdf" target="_blank">here</a></strong> for more details.</p>
+<p align="justify"><strong>[Job vacancies]</strong> We have 2 AI research scientist positions available at A*STAR, Singapore. Please click <strong><a href="/assets/pdf/IHPC-AI-Jobs-EAI-Scientist.pdf" target="_blank">here</a></strong> for more details.</p>
 
 
-<h2 id="news">news</h2>
+<Strong>news</strong>
 
 <ul align="justify">
   <li>[Jul 2022] Our paper on Adversarial Multimodal Fusion with Attention Mechanism for Skin Lesion Classification Using Clinical and Dermoscopic Images is accepted by Medical Image Analysis.</li>
@@ -37,7 +37,7 @@ social: false  # includes social icons at the bottom of the page
   <li>[Mar 2020] I am selected as Member of the Executive Area Chair Committee for <a href="http://valser.org/article-364-1.html"  target="_blank">Vision And Learning SEminar (VALSE)</a>.</li>
 </ul>
 
-<h2 id="news">contact</h2>
+<Strong>contact</strong>
 
 &nbsp; &nbsp; &nbsp; <i style="font-size:14px" class="fa">&#xf0e0;</i>&nbsp; zhenll [at] ihpc.a-star.edu.sg<br>
 &nbsp; &nbsp; &nbsp; <i style="font-size:14px" class="fa">&#xf041;</i>&nbsp; 1 Fusionopolis Way, #16-16 Connexis North, Singapore 138632
