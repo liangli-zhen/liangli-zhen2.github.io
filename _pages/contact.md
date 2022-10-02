@@ -1,0 +1,17 @@
+---
+layout: page
+permalink: /contact/
+title: contact
+description:
+nav: true
+nav_order: 6
+---
+
+<Strong>contact</strong>
+subtitle: connect & exchange ideas
+
+&nbsp; &nbsp; &nbsp; <i style="font-size:14px" class="fa">&#xf0e0;</i>&nbsp; zhenll [at] ihpc.a-star.edu.sg or llzhen [at] outlook.com<br>
+
+&nbsp; &nbsp; &nbsp; <i style="font-size:14px" class="fa">&#xf041;</i>&nbsp; 1 Fusionopolis Way, #16-16 Connexis North, Singapore 138632
+
+<div><iframe src="https://www.onemap.sg/amm/amm.html?mapStyle=Default&amp;zoomLevel=15&amp;marker=latLng:1.29936328832975,103.78768764337099!iwt:null!colour:red&amp;popupWidth=200" height="450" width="100%" scrolling="no" frameborder="0" allowfullscreen="allowfullscreen" style="margin-top:20px;"></div>
