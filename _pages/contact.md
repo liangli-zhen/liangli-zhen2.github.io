@@ -2,13 +2,11 @@
 layout: page
 permalink: /contact/
 title: contact
-description:
+description: connect & exchange ideas
 nav: true
 nav_order: 6
 ---
 
-<Strong>contact</strong>
-subtitle: connect & exchange ideas
 
 &nbsp; &nbsp; &nbsp; <i style="font-size:14px" class="fa">&#xf0e0;</i>&nbsp; zhenll [at] ihpc.a-star.edu.sg or llzhen [at] outlook.com<br>
 
