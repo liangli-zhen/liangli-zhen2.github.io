@@ -35,4 +35,4 @@ social: false  # includes social icons at the bottom of the page
   <li>[Apr 2021] Our paper on Learning Cross-modal Retrieval with Noisy Labels is accepted by CVPR-2021.</li>
   <li>[Apr 2021] Our paper on Natural Language Video Localization: A Revisit in Span-based Question Answering Framework is accepted by the IEEE Trans. on Pattern Analysis and Machine Intelligence.</li>
   <li>[Mar 2020] I am selected as Member of the Executive Area Chair Committee for <a href="http://valser.org/article-364-1.html"  target="_blank">Vision And Learning SEminar (VALSE)</a>.</li>
-</ul><br><br>
+</ul>
