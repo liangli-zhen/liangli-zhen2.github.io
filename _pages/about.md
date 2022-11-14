@@ -27,6 +27,7 @@ social: false  # includes social icons at the bottom of the page
 <Strong>news</strong>
 
 <ul align="justify">
+  <li>[Oct 2022] Our project on <a href="https://aisingapore.org/rapier-radiology-pathology-information-exchange-resource/">RAPIER – Radiology Pathology Information Exchange Resource</a> awarded the <a href="https://aisingapore.org/technology/technology-challenges/">AI Singapore Tech Challenge</a> Funding.</li>
   <li>[Jul 2022] Our paper on Adversarial Multimodal Fusion with Attention Mechanism for Skin Lesion Classification Using Clinical and Dermoscopic Images is accepted by Medical Image Analysis.</li>
   <li>[Feb 2022] Our paper on Deep Multimodal Transfer Learning for Cross-Modal Retrieval is published in the IEEE Trans. on Neural Networks and Learning Systems.</li>
   <li>[Jan 2022] Our paper on Efficient Sharpness-Aware Minimization for Improved Training of Neural Networks is accepted by ICLR-2022.</li>
