@@ -35,5 +35,5 @@ social: false  # includes social icons at the bottom of the page
   <li>[Apr 2021] Our paper on Video Corpus Moment Retrieval with Contrastive Learning is accepted by SIGIR-2021.</li>
   <li>[Apr 2021] Our paper on Learning Cross-modal Retrieval with Noisy Labels is accepted by CVPR-2021.</li>
   <li>[Apr 2021] Our paper on Natural Language Video Localization: A Revisit in Span-based Question Answering Framework is accepted by the IEEE Trans. on Pattern Analysis and Machine Intelligence.</li>
-  <li>[Feb 2021] Our project on MARIO: Multimodal AI-Driven Decision Making for Ophthalmology is awarded the Singapore RIE2020 Advanced Manufacturing and Engineering (AME) Programmatic Fund.</li>
+  <li>[Feb 2021] Our project on MARIO: Multimodal AI-Driven Decision Making for Ophthalmology is awarded the Singapore RIE2020 Advanced Manufacturing and Engineering (<a  href="https://www.a-star.edu.sg/docs/librariesprovider1/default-document-library/research/funding-opportunities/ame-programmatic-funds/ame-rie2020-programmatic-(updated-2018-06-09)_1.pdf">AME</a>) Programmatic Fund.</li>
 </ul>
