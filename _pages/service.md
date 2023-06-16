@@ -12,7 +12,7 @@ horizontal: false
 Student supervisor
 <ul>
 <li>Sotthiwat Ekanut, <a href="https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa">
-	Singapore International Graduate Award (SINGA)</a> PhD student at the National University of Singapore. (Co-supervisor: <a href="https://www.comp.nus.edu.sg/~xiaoxk/">A/Prof Xiaokui Xiao</a>)</li>
+	Singapore International Graduate Award (SINGA)</a> PhD student at the National University of Singapore. (Co-supervisor: <a href="https://www.comp.nus.edu.sg/~xiaoxk/">Prof Xiaokui Xiao</a>)</li>
 	
 <li>Yuxuan Lin, intern at IHPC (master student at the National University of Singapore). (Co-supervisor: <a href="https://scholar.google.com/citations?user=d4KZI8MAAAAJ&hl=en">Dr Tao Luo</a>)</li>
 </ul>
