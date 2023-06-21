@@ -7,18 +7,44 @@ nav: true
 nav_order: 4
 ---
 
-<li>Development of Stable Robust and Secure Intelligent Systems for Autonomous Vehicles, AI Singapore Robust AI Grand Challenge, Stage 1a: S$2,554,800, 2023 - 2025, Co-Principal Investigator (Lead of Work Package 3).</li>
+---
+layout: page
+permalink: /grants/
+title: grants
+description: I acknowledge the research funding support for our research from the following grants
+nav: true
+nav_order: 4
+---
 
-<li>Assessment of Robustness of Computer Vision Models, Singapore Aerospace Programme, 2022 - 2024, Principal Investigator.</li>
+<li>
+<i>Development of Stable Robust and Secure Intelligent Systems for Autonomous Vehicles</i><br>
+AI Singapore Robust AI Grand Challenge. Stage 1a: SGD 2,554,800. 2023 - 2025. Co-Principal Investigator (Lead of Work Package 3).</li>
 
-<li><a href="https://aisingapore.org/ottc-call-awardees/rapier-radiology-pathology-information-exchange-resource/">RAPIER - Radiology Pathology Information Exchange Resource</a>, AI Singapore OTTC, S$ 2,866,176, 2022 – 2025, Co-Principal Investigator.</li>
+<li>
+<i>Assessment of Robustness of Computer Vision Models</i><br>
+Singapore Aerospace Programme, 2022 - 2024, Principal Investigator.</li>
 
-<li>Artificial Intelligence for Patient Self-Monitoring of Atopic Dermatitis, Industry Project, 2022 - 2024, Principal Investigator.</li>
+<li>
+<i><a href="https://aisingapore.org/ottc-call-awardees/rapier-radiology-pathology-information-exchange-resource/">RAPIER - Radiology Pathology Information Exchange Resource</a></i><br>
+AI Singapore OTTC. SGD 2,866,176. 2022 – 2025. Co-Principal Investigator.</li>
 
-<li>MARIO: Multimodal AI-Driven Decision Making for Ophthalmology, RIE2020 Advanced Manufacturing and Engineering (AME) Programmatic Fund, S$9,925,920, 2021 - 2024, Co-Investigator (Lead of Work Package 4).</li>
+<li>
+<i>Artificial Intelligence for Patient Self-Monitoring of Atopic Dermatitis</i><br>
+Industry Collaboration Project. 2022 - 2024. Principal Investigator.</li>
 
-<li>A Secure and Privacy Preserving AI Platform for Digital Health, A*STAR Central Research Funds, S$1,200,000, 2021 - 2024, Co-Principal Investigator.</li>
+<li>
+<i>MARIO: Multimodal AI-Driven Decision Making for Ophthalmology</i><br>
+RIE2020 Advanced Manufacturing and Engineering (AME) Programmatic Fund. SGD 9,925,920. 2021 - 2024. Co-Investigator (Lead of Work Package 1).</li>
 
-<li>Communication-Efficient Federated Learning, Industry Project, 2021 - 2022, Principal Investigator.</li>
+<li>
+<i>A Secure and Privacy Preserving AI Platform for Digital Health</i><br>
+A*STAR Central Research Funds. SGD 1,200,000. 2021 - 2024. Co-Principal Investigator.</li>
 
-<li>Robust Prohibited Items Screening System, Industry Project, 2021 - 2022, Co-Principal Investigator.</li>
+<li>
+<i>Communication-Efficient Federated Learning</i><br>
+Industry Collaboration Project. 2021 - 2022. Principal Investigator.</li>
+
+<li>
+<i>Robust Prohibited Items Screening System</i><br>
+Industry Collaboration Project. 2021 - 2022. Co-Principal Investigator.</li>
+
