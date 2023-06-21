@@ -11,7 +11,7 @@ nav_order: 4
 layout: page
 permalink: /grants/
 title: grants
-description: I acknowledge the research funding support for our research from the following grants
+description: I acknowledge the funding support for our research from the following grants
 nav: true
 nav_order: 4
 ---
