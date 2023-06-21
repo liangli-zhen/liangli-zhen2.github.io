@@ -4,7 +4,7 @@ permalink: /contact/
 title: contact
 description: connect & exchange ideas
 nav: true
-nav_order: 6
+nav_order: 7
 ---
 
 
