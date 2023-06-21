@@ -4,7 +4,7 @@ permalink: /awards/
 title: awards
 description: I am honoured to be given the following awards and scholarships
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 <li>Outstanding Paper Award of Sichuan Province Computer Federation in 2018</li>		
