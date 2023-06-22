@@ -15,7 +15,7 @@ AI Singapore Robust AI Grand Challenge. Stage 1a: SGD 2,554,800. 2023 - 2025. Co
 Singapore Aerospace Programme, 2022 - 2024, Principal Investigator.</li><br>
 <li>
 <b><a href="https://aisingapore.org/ottc-call-awardees/rapier-radiology-pathology-information-exchange-resource/">RAPIER - Radiology Pathology Information Exchange Resource</a></b><br>
-AI Singapore OTTC. SGD 2,866,176. 2022 – 2025. Co-Principal Investigator.</li><be>
+AI Singapore OTTC. SGD 2,866,176. 2022 – 2025. Co-Principal Investigator.</li><br>
 <li>  
 <b>Artificial Intelligence for Patient Self-Monitoring of Atopic Dermatitis</b><br>
 Industry Collaboration Project. 2022 - 2024. Principal Investigator.</li><br>
