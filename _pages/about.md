@@ -27,7 +27,6 @@ social: false  # includes social icons at the bottom of the page
 <Strong>news</strong>
 
 <ul align="justify">
-  <li>[June 2023] Our project on the Development of Stable Robust and Secure Intelligent Systems for Autonomous Vehicles has been awarded the AI Singapore Robust AI Grand Challenge Fund.</li>
   <li>[Jul 2022] Our paper on Adversarial Multimodal Fusion with Attention Mechanism for Skin Lesion Classification Using Clinical and Dermoscopic Images is accepted by Medical Image Analysis.</li>  
   <li>[Mar 2022] Our project on <a href="https://aisingapore.org/rapier-radiology-pathology-information-exchange-resource/">RAPIER</a> – Radiology Pathology Information Exchange Resource has been awarded the AI Singapore Technology Challenge Fund.</li>
   <li>[Feb 2022] Our paper on Deep Multimodal Transfer Learning for Cross-Modal Retrieval is published in the IEEE Trans. on Neural Networks and Learning Systems.</li>
