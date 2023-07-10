@@ -6,7 +6,7 @@ description: I acknowledge the funding support for our research from the followi
 nav: true
 nav_order: 4
 ---
-
+<li>
 <b>Assessment of Robustness of Computer Vision Models</b><br>
 Singapore Aerospace Programme, 2022 - 2024, Principal Investigator.</li><br>
 <li>
