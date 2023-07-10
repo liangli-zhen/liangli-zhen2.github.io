@@ -7,10 +7,6 @@ nav: true
 nav_order: 4
 ---
 
-<li>
-<b>Development of Stable Robust and Secure Intelligent Systems for Autonomous Vehicles</b><br>
-AI Singapore Robust AI Grand Challenge. Stage 1a: SGD 2,554,800. 2023 - 2025. Co-Principal Investigator.</li><br>
-<li>
 <b>Assessment of Robustness of Computer Vision Models</b><br>
 Singapore Aerospace Programme, 2022 - 2024, Principal Investigator.</li><br>
 <li>
