@@ -27,9 +27,10 @@ social: false  # includes social icons at the bottom of the page
 <Strong>news</strong>
 
 <ul align="justify">
-  <li>[Jul 2023] Our paper on Generative Gradient Inversion Without Prior is accepted by ICCV-2023.</li> 
+  <li>[Jul 2023] Our paper on Generative Gradient Inversion Without Prior is accepted by ICCV-2023.</li>
+  <li>[Jan 2023] Our paper on Contrastive Domain Adaptation With Consistency Match for Automated Pneumonia Diagnosis has been published in Medical Image Analysis.</li>  
   <li>[Jul 2022] Our paper on Adversarial Multimodal Fusion with Attention Mechanism for Skin Lesion Classification Using Clinical and Dermoscopic Images is accepted by Medical Image Analysis.</li>  
-  <li>[Mar 2022] Our project on <a href="https://aisingapore.org/rapier-radiology-pathology-information-exchange-resource/">RAPIER</a> – Radiology Pathology Information Exchange Resource has been awarded the AI Singapore Technology Challenge Fund.</li>
+  <li>[Mar 2022] Our project on <a href="https://aisingapore.org/rapier-radiology-pathology-information-exchange-resource/">RAPIER</a> – Radiology Pathology Information Exchange Resource has been awarded the AI Singapore Technology Challenge Fund</li>
   <li>[Feb 2022] Our paper on Deep Multimodal Transfer Learning for Cross-Modal Retrieval is published in the IEEE Trans. on Neural Networks and Learning Systems.</li>
   <li>[Jan 2022] Our paper on Efficient Sharpness-Aware Minimization for Improved Training of Neural Networks is accepted by ICLR-2022.</li>
   <li>[Aug 2021] Our paper on Evolutionary Multi-Objective Model Compression for Deep Neural Networks is published in the IEEE Computational Intelligence Magazine.</li>
