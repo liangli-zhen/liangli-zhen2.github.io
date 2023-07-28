@@ -10,7 +10,6 @@ nav_order: 4
 <b>Development of Stable Robust and Secure Intelligent Systems for Autonomous Vehicles</b><br>
 AI Singapore Robust AI Grand Challenge. 2023 - 2026. Co-Principal Investigator.</li><br>
 <li>
-<li>
 <b>Assessment of Robustness of Computer Vision Models</b><br>
 Singapore Aerospace Programme, 2022 - 2024, Principal Investigator.</li><br>
 <li>
