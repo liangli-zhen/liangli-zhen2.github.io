@@ -28,7 +28,7 @@ social: false  # includes social icons at the bottom of the page
 
 <ul align="justify">
   <li>[July 2023] Our project on Development of Stable, Robust and Secure Intelligent Systems for Autonomous Vehicles has been awarded the AI Singapore <a href="https://connect.aisingapore.org/2023/07/s20m-research-funding-to-address-challenges-related-to-the-increasing-use-of-ai-in-emerging-applications/">Robust AI Grand Challenge</a> Funding.</li>
-  <li>[Jul 2023] Our paper on Generative Gradient Inversion Without Prior is accepted by ICCV-2023.</li>
+  <li>[Jul 2023] Our paper on Generative Gradient Inversion via Over-parameterized Convolutional Networks in Federated Learning is accepted by ICCV-2023.</li>
   <li>[Jan 2023] Our paper on Contrastive Domain Adaptation With Consistency Match for Automated Pneumonia Diagnosis has been published in Medical Image Analysis.</li>  
   <li>[Jul 2022] Our paper on Adversarial Multimodal Fusion with Attention Mechanism for Skin Lesion Classification Using Clinical and Dermoscopic Images is accepted by Medical Image Analysis.</li>  
   <li>[Mar 2022] Our project on <a href="https://aisingapore.org/rapier-radiology-pathology-information-exchange-resource/">RAPIER</a> – Radiology Pathology Information Exchange Resource has been awarded the AI Singapore Technology Challenge Funding.</li>
