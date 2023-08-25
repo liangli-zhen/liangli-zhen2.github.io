@@ -21,7 +21,7 @@ social: false  # includes social icons at the bottom of the page
 
 <p align="justify">My research is mainly on machine learning and optimisation. Related research topics include multimodal learning, safe & robust machine learning, evolutionary multi-objective optimisation, and more.<a href="https://scholar.google.com/citations?user=dtv_LZkAAAAJ&hl=en"><img src="assets/img/gs.png" width="12px"></a></p>
 
-<p align="justify">Open positions for visiting PhD students and internships in safe and robust AI research.</p>
+<p align="justify">Open positions for visiting PhD students and internships in Reliable AI research.</p>
 
 <Strong>news</strong>
 
