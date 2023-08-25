@@ -19,13 +19,13 @@ social: false  # includes social icons at the bottom of the page
 
 <p align="justify">Welcome to my homepage! I am a group manager and senior scientist at the Institute of High Performance Computing (<a href="https://www.a-star.edu.sg/ihpc">IHPC</a>), Agency for Science, Technology and Research (<a href="https://www.a-star.edu.sg/">A*STAR</a>), Singapore. I lead the Reliable AI research group to improve AI safety and robustness. Prior to joining IHPC, I received my PhD in Computer Science from Sichuan University, supervised by Professor <a href="http://cs.scu.edu.cn/info/1108/5359.htm">Dezhong Peng</a>. I was a joint PhD student at the University of Birmingham, supervised by Professor <a href="http://www.cs.bham.ac.uk/~xin/">Xin Yao</a>.</p>
 
-<p align="justify">My research is mainly on machine learning and optimisation. Related research topics include multimodal learning, safe & robust machine learning, evolutionary multi-objective optimisation, and more.<a href="https://scholar.google.com/citations?user=dtv_LZkAAAAJ&hl=en"><img src="assets/img/gs.png" width="12px"></a></p>
+<p align="justify">My research is mainly on machine learning and optimisation. Related research topics include multimodal learning, adversarial robustness, domain generalisation, neural architecture search, foundation models, evolutionary multi-objective optimisation, and more.<a href="https://scholar.google.com/citations?user=dtv_LZkAAAAJ&hl=en"><img src="assets/img/gs.png" width="12px"></a></p>
 
-<p align="justify">Open positions for visiting PhD students and internships in Reliable AI research.</p>
 
 <Strong>news</strong>
 
 <ul align="justify">
+  <li>[Aug 2023] We are currently offering open positions for visiting PhD students and internships in Reliable AI research.</li>
   <li>[Jul 2023] Our project on Development of Stable, Robust and Secure Intelligent Systems for Autonomous Vehicles has been awarded the AI Singapore <a href="https://connect.aisingapore.org/2023/07/s20m-research-funding-to-address-challenges-related-to-the-increasing-use-of-ai-in-emerging-applications/">Robust AI Grand Challenge</a> Funding.</li>
   <li>[Jul 2023] Our paper on Generative Gradient Inversion via Over-parameterized Convolutional Networks in Federated Learning is accepted by ICCV-2023.</li>
   <li>[Jan 2023] Our paper on Contrastive Domain Adaptation With Consistency Match for Automated Pneumonia Diagnosis has been published in Medical Image Analysis.</li>  
