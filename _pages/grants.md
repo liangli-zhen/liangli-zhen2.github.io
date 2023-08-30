@@ -16,7 +16,7 @@ Singapore Aerospace Programme, 2022 - 2024, Principal Investigator.</li><br>
 <b><a href="https://aisingapore.org/ottc-call-awardees/rapier-radiology-pathology-information-exchange-resource/">RAPIER - Radiology Pathology Information Exchange Resource</a></b><br>
 AI Singapore Technology Challenge. 2022 – 2025. Co-Principal Investigator.</li><br>
 <li>  
-<b>Artificial Intelligence for Patient Self-Monitoring of Atopic Dermatitis</b><br>
+<b>Deep Neural Networks for Automated Atopic Dermatitis Diagnosis</b><br>
 Industry Collaboration Project. 2022 - 2024. Principal Investigator.</li><br>
 <li>
 <b>MARIO: Multimodal AI-Driven Decision Making for Ophthalmology</b><br>
