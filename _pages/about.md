@@ -40,9 +40,7 @@ social: false  # includes social icons at the bottom of the page
   <li>[Feb 2021] Our project on MARIO: Multimodal AI-Driven Decision Making for Ophthalmology has been awarded the Singapore RIE2020 Advanced Manufacturing and Engineering (<a  href="https://www.a-star.edu.sg/docs/librariesprovider1/default-document-library/research/funding-opportunities/ame-programmatic-funds/ame-rie2020-programmatic-(updated-2018-06-09)_1.pdf">AME</a>) Programmatic Grant.</li>
 </ul>
 
-<div id="footer">
-<p><center>
+<center>
 <div id="clustrmaps-widget" style="width:10%">
 <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=7ZHvGekSdpW0uob9cLDWhfd_JGFDw8G0ON4LCJHWCUg"></script>
-</div>
-</div>
+</div></center>
