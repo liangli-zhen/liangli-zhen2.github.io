@@ -16,7 +16,32 @@ Machine learning is the science of getting computers to act without being explic
 </p>
 <i>Definition: A computer program is said to learn from experience $$\mathcal{E}$$ with respect to some class of tasks $$\mathcal{T}$$and performance measure $$\mathcal{P}$$, if its performance at tasks in $$\mathcal{T}$$, as measured by $$\mathcal{P}$$, improves with experience $$\mathcal{E}$$.</i>
 
-Our work in machine learning includes manifold learning, efficient learning, and safe & robust learning.
+Our work in machine learning includes safe & robust learning, multimodal learning, and manifold learning.
+
+<i>Safe and robust machine learning</i>
+<ul>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/ICCV2023_GGI.pdf">ICCV23</a>] A gradient inversion attack method in federated learning</li>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/MedIA2022_CDACM.pdf">MedIA23</a>] A domain adaptation method for medical image analysis</li>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/MedIA2022_AMFAM.pdf">MedIA22</a>] An adversarial multimodal learning method for automated skin lesion classification</li>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/ICLR2022_efficient_sharpness_aware_mini.pdf">ICLR22</a>] A robust optimisation method for deep neural networks</li>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/TBD22_AMPC.pdf">TBD22</a>] A secure multi-party learning method for federated learning</li>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/CVPR2021_Learning_Cross-Modal_Retrieval_With_Noisy_Labels_CVPR_2021_paper.pdf">CVPR21</a>] A robust learning method for handling noisy labels</li>
+</ul>
+
+
+
+<i>Multimodal machine learning</i>
+<ul>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/TPAMI2022_Natural_Language_Video_Localization_A_Revisit_in_Span-Based_Question_Answering_Framework.pdf">TPAMI22</a>] An efficient learning method for natural language video localisation</li>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/TNNLS2022_DMTL_CMR.pdf">TNNLS22</a>] A multimodal transfer learning method</li>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/TCYB2020_Joint%20Versus%20Independent%20Multiview%20Hashing%20for%20Cross-View%20Retrieval.pdf">TCYB21</a>] An efficient hashing method for cross-view retrieval</li>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/SIGIR2021_Video_corpus_moment_retrieval.pdf">SIGIR21</a>] An efficient method for video corpus moment retrieval</li>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/CVPR2019_Deep_Supervised_Cross_modal_Retrieval.pdf">CVPR19</a>] A deep supervised cross-modal retrieval method</li>
+<li>[<a href="https://liangli-zhen.github.io/papers/SIGIR2019_Scalable_Deep_Multimodal_Learning_for_Cross-Modal_Retrieval.pdf">SIGIR19</a>] A scalable deep multimodal learning method for cross-modal retrieval</li>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/SVHN.pdf">MM19</a>] A separated variational hashing method for cross-modal retrieval</li>
+<li>[<a href="https://www.sciencedirect.com/science/article/pii/S0950705118300595">KBS18</a>] A local feature-based method for multi-view analysis</li>
+</ul>
+
 
 <i>Manifold learning and subspace analysis</i>
 <ul>
@@ -26,28 +51,6 @@ Our work in machine learning includes manifold learning, efficient learning, and
 <li>[<a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=8081738">Access17</a>] A method by combining sparsity and independence of source for underdetermined blind source separation</li>
 <li>[<a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6838846/">EL14</a>] A manifold learning method for image clustering</li>
 <li>[<a href="http://www.jsoftware.us/vol8/jsw0802-21.pdf">JSW13</a>] A manifold learning method for dimension reduction</li>
-</ul>
-
-<i>Efficient machine learning</i>
-<ul>
-<li>[<a href="https://liangli-zhen.github.io/assets/pdf/TPAMI2022_Natural_Language_Video_Localization_A_Revisit_in_Span-Based_Question_Answering_Framework.pdf">TPAMI22</a>] An efficient learning method for natural language video localisation</li>
-<li>[<a href="https://liangli-zhen.github.io/assets/pdf/TNNLS2022_DMTL_CMR.pdf">TNNLS22</a>] A multimodal transfer learning method</li>
-<li>[<a href="https://liangli-zhen.github.io/assets/pdf/ICLR2022_efficient_sharpness_aware_mini.pdf">ICLR22</a>] An efficient robust optimisation method for deep neural networks</li>
-<li>[<a href="https://liangli-zhen.github.io/assets/pdf/TCYB2020_Joint%20Versus%20Independent%20Multiview%20Hashing%20for%20Cross-View%20Retrieval.pdf">TCYB21</a>] An efficient hashing method for cross-view retrieval</li>
-<li>[<a href="https://liangli-zhen.github.io/assets/pdf/SIGIR2021_Video_corpus_moment_retrieval.pdf">SIGIR21</a>] An efficient method for video
-corpus moment retrieval</li>
-<li>[<a href="https://liangli-zhen.github.io/assets/pdf/CVPR2019_Deep_Supervised_Cross_modal_Retrieval.pdf">CVPR19</a>] A deep supervised cross-modal retrieval method</li>
-<li>[<a href="https://liangli-zhen.github.io/papers/SIGIR2019_Scalable_Deep_Multimodal_Learning_for_Cross-Modal_Retrieval.pdf">SIGIR19</a>] A scalable deep multimodal learning method for cross-modal retrieval</li>
-<li>[<a href="https://liangli-zhen.github.io/assets/pdf/SVHN.pdf">MM19</a>] A separated variational hashing method for cross-modal retrieval</li>
-<li>[<a href="https://www.sciencedirect.com/science/article/pii/S0950705118300595">KBS18</a>] A local feature-based method for multi-view analysis</li>
-</ul>
-
-<i>Safe and robust machine learning</i>
-<ul>
-<li>[<a href="https://liangli-zhen.github.io/assets/pdf/MedIA2022_AMFAM.pdf">MedIA22</a>] An adversarial multimodal learning method for automated skin lesion classification</li>
-<li>[<a href="https://liangli-zhen.github.io/assets/pdf/ICLR2022_efficient_sharpness_aware_mini.pdf">ICLR22</a>] A robust optimisation method for deep neural networks</li>
-<li>[<a href="https://liangli-zhen.github.io/assets/pdf/CVPR2021_Learning_Cross-Modal_Retrieval_With_Noisy_Labels_CVPR_2021_paper.pdf">CVPR21</a>] A robust learning method for handling noisy labels</li>
-<li>[TBD22] A secure multi-party learning method for federated learning</li>
 </ul>
 
 <sup id="fn1">1. Machine Learning, Tom Mitchell, McGraw Hill, 1997.</sup><br><br>
@@ -70,7 +73,7 @@ $$
 
 where $$\mathbf{x} = (x_1, x_2, \dots, x_d) \in \Omega$$ is the decision vector; $$\mathbf{f} \in \Re^m$$ is the objective vector. The decision vector $$\mathbf{x}$$ is composed of $$d$$ decision variables and the objective vector $$\mathbf{f}$$ consists of $$m$$ objective functions, in which each $$f_i(\mathbf{x})$$ maps $$\mathbf{x}$$ from $$\Omega$$ to a scaler. The conditions on $$g_i(\mathbf{x})$$ and $$h_j(\mathbf{x})$$ are known as the inequality and equality constraints, respectively. If the MOP has more than three objectives, it is called a <em>many-objective optimisation problem</em> (MaOP).
 
-<p align="justify"> Our work in multi-objective optimisation includes test problem construction, multi-objective optimisation visualisation, and design of efficient multi-objective evolutionary algorithms. </p>
+<p align="justify"> Our work in multi-objective optimisation includes test problem construction, multi-objective optimisation visualisation, and the design of efficient multi-objective evolutionary algorithms. </p>
 
 <i>Test problems for multi-objective optimisation</i>
 <ul>
