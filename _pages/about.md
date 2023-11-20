@@ -26,7 +26,7 @@ social: false  # includes social icons at the bottom of the page
 
 <ul align="justify">  
   <li>[Nov 2023] We are currently offering open positions for visiting PhD students and internships in Reliable AI research.</li>
-  <li>[Nov 2022] Our paper on Deep Supervised Multi-View Learning with Graph Priors has been accepted by the IEEE Trans. on Image Processing.</li>
+  <li>[Nov 2023] Our paper on Deep Supervised Multi-View Learning with Graph Priors has been accepted by the IEEE Trans. on Image Processing.</li>
   <li>[Jul 2023] Our project on <a href="https://aisingapore.org/development-of-stable-robust-and-secure-intelligent-systems-for-autonomous-vehicles">Development of Stable, Robust and Secure Intelligent Systems for Autonomous Vehicles</a> has been awarded the AI Singapore <a href="https://connect.aisingapore.org/2023/07/s20m-research-funding-to-address-challenges-related-to-the-increasing-use-of-ai-in-emerging-applications/">Robust AI Grand Challenge</a> Funding.</li>
   <li>[Jul 2023] Our paper on Generative Gradient Inversion via Over-parameterized Convolutional Networks in Federated Learning is accepted by ICCV-2023.</li>
   <li>[Jan 2023] Our paper on Contrastive Domain Adaptation With Consistency Match for Automated Pneumonia Diagnosis has been published in Medical Image Analysis.</li>  
