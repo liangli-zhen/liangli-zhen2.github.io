@@ -1,10 +1,19 @@
 @article{hu2023deep,
   title={Deep supervised multi-view learning with graph priors},
-  author={Peng Hu and Liangli Zhen* and Xi Peng and Hongyuan Zhu and Jie Lin and Xu Wang and D. Peng},
+  author={Peng Hu and Liangli Zhen* and Xi Peng and Hongyuan Zhu and Jie Lin and Xu Wang and Dezhong Peng},
   journal={IEEE Transactions on Image Processing},
   year={2023},
   abstract = {This paper presents a novel method for supervised multi-view representation learning, which projects multiple views into a latent common space while preserving the discrimination and intrinsic structure of each view. Specifically, an \textit{apriori} discriminant similarity graph is first constructed based on labels and pairwise relationships of multi-view inputs. Then, view-specific networks progressively map inputs to common representations whose affinity approximates the constructed graph. To achieve graph consistency, discrimination, and cross-view invariance, the similarity graph is enforced to meet the following constraints: 1) pairwise relationship should be consistent between the input space and common space for each view; 2) within-class similarity is larger than any between-class similarity for each view; 3) the inter-view samples from the same (or different) classes are mutually similar (or dissimilar). Consequently, the intrinsic structure and discrimination are preserved in the latent common space using an apriori approximation schema. Moreover, we present a sampling strategy to approach a sub-graph sampled from the whole similarity structure instead of approximating the graph of the whole dataset explicitly, thus benefiting lower space complexity and the capability of handling large-scale multi-view datasets. Extensive experiments show the promising performance of our method on five datasets by comparing it with 18 state-of-the-art methods.},
   preview={DSMVL_2023.png}
+}
+
+@article{Xue2023evolutionary,
+  title={Evolutionary architecture search for generative adversarial networks based on weight sharing},
+  author={Yu Xue and Weinan Tong and Ferrante Neri and Peng Chen and Tao Luo and Liangli Zhen and Xiao Wang},
+  journal={IEEE Transactions on Evolutionary Computation},
+  year={2023},
+  abstract = {Generative adversarial networks (GANs) are a powerful generative technique but frequently face challenges with training stability. Network architecture plays a significant role in determining the final output of GANs, but designing a fine architecture demands extensive domain expertise. This paper aims to address this issue by searching for high-performance generator’s architectures through neural architecture search (NAS). The proposed approach, called evolutionary weight sharing generative adversarial networks (EWSGAN), is based on weight sharing and comprises two steps. First, a supernet of the generator is trained using weight sharing. Second, a multi-objective evolutionary algorithm (MOEA) is employed to identify optimal subnets from the supernet. These subnets inherit weights directly from the supernet for fitness assessment. Two strategies are used to stabilise the training of the generator supernet: a fair single-path sampling strategy and a discarding strategy. Experimental results indicate that the architecture searched by our method achieved a new state-of-the-art among NAS-GAN methods with a Fréchet inception distance (FID) of 9.09 and an inception score (IS) of 8.99 on the CIFAR-10 dataset. It also demonstrates competitive performance on the STL-10 dataset, achieving FID of 21.89 and IS of 10.51.},
+  preview={EWSGAN2.png}
 }
 
 @article{zhang2023generative,
