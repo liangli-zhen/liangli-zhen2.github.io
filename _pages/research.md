@@ -32,7 +32,8 @@ Our work in machine learning includes safe & robust learning, multimodal learnin
 
 <i>Multimodal machine learning</i>
 <ul>
-<li>[TIP23] A multi-view learning method with graph priors</li>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/GeCoM-Net.pdf">TMI24</a>] A multimodal learning method to utilise 3D OCT scans and 2D fundus images for eye disease detection</li>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/DMLPA.pdf">TIP24</a>] A multi-view learning method with graph priors</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/TPAMI2022_Natural_Language_Video_Localization_A_Revisit_in_Span-Based_Question_Answering_Framework.pdf">TPAMI22</a>] An efficient learning method for natural language video localisation</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/TNNLS2022_DMTL_CMR.pdf">TNNLS22</a>] A multimodal transfer learning method</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/TCYB2020_Joint%20Versus%20Independent%20Multiview%20Hashing%20for%20Cross-View%20Retrieval.pdf">TCYB21</a>] An efficient hashing method for cross-view retrieval</li>
@@ -89,8 +90,9 @@ where $$\mathbf{x} = (x_1, x_2, \dots, x_d) \in \Omega$$ is the decision vector;
 </ul>
 
 
-<i>Multi-objective optimisation in deep learning</i>
+<i>Multi-objective optimisation for neural architecture search</i>
 <ul>
-<li>[TEVC23] A neural architecture search algorithm for automated design of GANs</li>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/MedNAS.pdf">TEVC24</a>] MedNAS: Neural architecture search for medical image analysis</li>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/EWSGAN_TEVC2023.pdf">TEVC23</a>] A neural architecture search algorithm for automated design of GANs</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/CIM2021-Evolutionary_Multi-Objective_Model_Compression_for_Deep_Neural_Networks.pdf">CIM21</a>] An evolutionary multiobjective model compression method for deep neural networks</li>
 </ul><br>
