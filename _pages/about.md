@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Group Manager & Senior Scientist at <a href='https://www.a-star.edu.sg/'>A*STAR</a>
+subtitle: Senior Scientist at <a href='https://www.a-star.edu.sg/'>A*STAR</a>
 
 profile:
   align: left
