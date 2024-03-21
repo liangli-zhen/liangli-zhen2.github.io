@@ -25,7 +25,8 @@ social: false  # includes social icons at the bottom of the page
 <Strong>News</strong>
 
 <ul align="justify">  
-  <li>[Jan 2024] We are currently offering open positions for visiting PhD students and internships in Reliable AI research.</li>
+  <li>[Mar 2024] We are currently offering open positions for visiting PhD students and internships in Reliable AI research.</li>
+  <li>[Mar 2024] Our paper on Generative Image Reconstruction from Gradients has been accepted by the IEEE Transactions on Neural Networks and Learning Systems.</li>
   <li>[Jan 2024] Our paper on Geometric Correspondence-Based Multimodal Learning for Ophthalmic Image Analysis has been accepted by the IEEE Transactions on Medical Imaging.</li>
   <li>[Jan 2024] Our paper on MedNAS: Multi-scale Training-free Neural Architecture Search for Medical Image Analysis has been accepted by the IEEE Transactions on Evolutionary Computation.</li>
   <li>[Nov 2023] Our paper on Deep Supervised Multi-View Learning with Graph Priors has been accepted by the IEEE Transactions on Image Processing.</li>
