@@ -26,7 +26,7 @@ social: false  # includes social icons at the bottom of the page
 
 <ul align="justify">  
   <li>[May 2024] We are currently offering open positions for visiting PhD students and internships in Reliable AI research.</li>
-  <li>[May 2024] Our team has won the championship at the <a href="https://repss-w.github.io/">Third Vision-based Remote Physiological Signal Sensing (RePSS) Challenge</a>.</li>
+  <li>[May 2024] Our team has won the championship in the <a href="https://repss-w.github.io/">Third Vision-based Remote Physiological Signal Sensing (RePSS) Challenge</a>.</li>
   <li>[Apr 2024] Our paper on Neural Architecture Search with Progressive Evaluation and Sub-Population Preservation has been accepted by the IEEE Transactions on Evolutionary Computation.</li>
   <li>[Mar 2024] Our paper on Generative Image Reconstruction from Gradients has been accepted by the IEEE Transactions on Neural Networks and Learning Systems.</li>
   <li>[Jan 2024] Our paper on Geometric Correspondence-Based Multimodal Learning for Ophthalmic Image Analysis has been accepted by the IEEE Transactions on Medical Imaging.</li>
