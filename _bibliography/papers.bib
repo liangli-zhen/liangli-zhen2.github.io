@@ -1,4 +1,14 @@
 
+@article{wang2024mednas,
+  title={MedNAS: Multi-scale training-free neural architecture search for medical image analysis},
+  author={Yan Wang and Liangli Zhen* and Jianwei Zhang and Miqing Li and Lei Zhang and Zizhou Wang and Yangqin Feng and Yu Xue and Xiao Wang and Zheng Chen and Tao Luo and Rich Siow Mong Goh and Yong Liu},
+  journal={IEEE Transactions on Evolutionary Computation},
+  year={2024},
+  pdf={MedNAS.pdf},
+  abstract = {Deep neural networks have demonstrated impressive results in medical image analysis, but designing suitable architectures for each specific task is expertise-dependent and time-consuming. Neural architecture search (NAS) offers an effective means of discovering architectures. It has been highly successful in numerous applications, particularly in natural image classification. Yet, medical images possess unique characteristics, such as small regions and a wide variety of lesion sizes, that differentiate them from natural images. Furthermore, most current NAS methods struggle with high computational costs, especially when dealing with high-resolution image datasets. In this paper, we present a novel evolutionary neural architecture search method called Multi-Scale Training-Free Neural Architecture Search to address these challenges. Specifically, to accommodate the broad range of lesion region sizes in disease diagnosis, we develop a new reduction cell search space that enables the search algorithm to explicitly identify the optimal scale combination for multi-scale feature extraction. To overcome the issue of high computational costs, we utilize training-free indicators as performance measures for candidate architectures, which allows us to search for the optimal architecture more efficiently. More specifically, by considering the capability and simplicity of various networks, we formulate a multi-objective optimization problem that involves two training-free indicators and model complexity for candidate architectures. Extensive experiments on a large medical image benchmark and a publicly available breast cancer detection dataset are conducted. The empirical results demonstrate that our MSTF-NAS outperforms both human-designed architectures and current state-of-the-art NAS algorithms on both datasets, indicating the effectiveness of our proposed method.},
+  preview={MedNAS.png}
+}
+
 @article{wang2024gecom,
   title={Geometric correspondence-based multimodal learning for ophthalmic image analysis},
   author={Yan Wang and Liangli Zhen* and Tien-En Tan and Huazhu Fu and Yangqin Feng and Zizhou Wang and Xinxing Xu and Rick Siow Mong Goh and Yipin Ng and Claire Calhoun and Gavin SW Tan and Jennifer K Sun and Yong Liu and Daniel SW Ting},
@@ -30,16 +40,6 @@ pdf={GIRG.pdf},
   preview={DSMVL_2023.png}
 }
 
-@article{wang2024mednas,
-  title={MedNAS: Multi-scale training-free neural architecture search for medical image analysis},
-  author={Yan Wang and Liangli Zhen* and Jianwei Zhang and Miqing Li and Lei Zhang and Zizhou Wang and Yangqin Feng and Yu Xue and Xiao Wang and Zheng Chen and Tao Luo and Rich Siow Mong Goh and Yong Liu},
-  journal={IEEE Transactions on Evolutionary Computation},
-  year={2024},
-  pdf={MedNAS.pdf},
-  abstract = {Deep neural networks have demonstrated impressive results in medical image analysis, but designing suitable architectures for each specific task is expertise-dependent and time-consuming. Neural architecture search (NAS) offers an effective means of discovering architectures. It has been highly successful in numerous applications, particularly in natural image classification. Yet, medical images possess unique characteristics, such as small regions and a wide variety of lesion sizes, that differentiate them from natural images. Furthermore, most current NAS methods struggle with high computational costs, especially when dealing with high-resolution image datasets. In this paper, we present a novel evolutionary neural architecture search method called Multi-Scale Training-Free Neural Architecture Search to address these challenges. Specifically, to accommodate the broad range of lesion region sizes in disease diagnosis, we develop a new reduction cell search space that enables the search algorithm to explicitly identify the optimal scale combination for multi-scale feature extraction. To overcome the issue of high computational costs, we utilize training-free indicators as performance measures for candidate architectures, which allows us to search for the optimal architecture more efficiently. More specifically, by considering the capability and simplicity of various networks, we formulate a multi-objective optimization problem that involves two training-free indicators and model complexity for candidate architectures. Extensive experiments on a large medical image benchmark and a publicly available breast cancer detection dataset are conducted. The empirical results demonstrate that our MSTF-NAS outperforms both human-designed architectures and current state-of-the-art NAS algorithms on both datasets, indicating the effectiveness of our proposed method.},
-  preview={MedNAS.png}
-}
-
 @article{xue2024neural,
   title={Neural architecture search with progressive evaluation and sub-population preservation},
   author={Yu Xue and Jiajie Zha and Danilo Pelusi and Peng Chen and Tao Luo and Liangli Zhen and Yan Wang and Mohamed Wahib},
@@ -50,11 +50,11 @@ pdf={GIRG.pdf},
 }
 
 
-@article{Xue2023evolutionary,
+@article{Xue2024evolutionary,
   title={Evolutionary architecture search for generative adversarial networks based on weight sharing},
   author={Yu Xue and Weinan Tong and Ferrante Neri and Peng Chen and Tao Luo and Liangli Zhen and Xiao Wang},
   journal={IEEE Transactions on Evolutionary Computation},
-  year={2023},
+  year={2024},
   pdf={EWSGAN_TEVC2023.pdf},
   abstract = {Generative adversarial networks (GANs) are a powerful generative technique but frequently face challenges with training stability. Network architecture plays a significant role in determining the final output of GANs, but designing a fine architecture demands extensive domain expertise. This paper aims to address this issue by searching for high-performance generator’s architectures through neural architecture search (NAS). The proposed approach, called evolutionary weight sharing generative adversarial networks (EWSGAN), is based on weight sharing and comprises two steps. First, a supernet of the generator is trained using weight sharing. Second, a multi-objective evolutionary algorithm (MOEA) is employed to identify optimal subnets from the supernet. These subnets inherit weights directly from the supernet for fitness assessment. Two strategies are used to stabilise the training of the generator supernet: a fair single-path sampling strategy and a discarding strategy. Experimental results indicate that the architecture searched by our method achieved a new state-of-the-art among NAS-GAN methods with a Fréchet inception distance (FID) of 9.09 and an inception score (IS) of 8.99 on the CIFAR-10 dataset. It also demonstrates competitive performance on the STL-10 dataset, achieving FID of 21.89 and IS of 10.51.},
   preview={EWSGAN2.png}
