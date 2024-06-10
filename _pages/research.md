@@ -93,6 +93,7 @@ where $$\mathbf{x} = (x_1, x_2, \dots, x_d) \in \Omega$$ is the decision vector;
 <i>Multi-objective optimisation for neural architecture search</i>
 <ul>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/MedNAS.pdf">TEVC24</a>] MedNAS: Neural architecture search for medical image analysis</li>
-<li>[<a href="https://liangli-zhen.github.io/assets/pdf/EWSGAN_TEVC2023.pdf">TEVC23</a>] A neural architecture search algorithm for automated design of GANs</li>
+<li>[<a href="https://ieeexplore.ieee.org/document/10508441">TEVC24</a>] A NAS method with progressive evaluation and sub-population preservation</li>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/EWSGAN_TEVC2023.pdf">TEVC24</a>] A neural architecture search algorithm for automated design of GANs</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/CIM2021-Evolutionary_Multi-Objective_Model_Compression_for_Deep_Neural_Networks.pdf">CIM21</a>] An evolutionary multiobjective model compression method for deep neural networks</li>
 </ul><br>
