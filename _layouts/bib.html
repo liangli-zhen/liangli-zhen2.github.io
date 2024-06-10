@@ -29,12 +29,6 @@
         {%- else %}
           <!-- Title -->
           <div class="title">{{entry.title}}</div>
-          <!-- Highlight -->
-              {% if entry.highlight %}
-              <div class="highlight">
-                <strong>{{entry.highlight}}</strong> 
-              </div>
-              {% endif %}
           <!-- Author -->
           <div class="author">
           {% assign author_array_size = entry.author_array | size %}
@@ -110,7 +104,14 @@
           {%- endif -%}
 
           </div>
-
+          
+          <!-- Highlight -->
+              {% if entry.highlight %}
+              <div class="highlight">
+                <strong>{{entry.highlight}}</strong> 
+              </div>
+              {% endif %}
+              
           <!-- Journal/Book title and date -->
           {% if entry.type == "article" -%}
             {%- capture entrytype -%}<em>{{entry.journal}}</em>, {%- endcapture -%}
