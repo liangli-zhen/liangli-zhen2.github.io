@@ -1,3 +1,33 @@
+@article{wu2024an,
+  title={An end-to-end contrastive deep-learning framework for remote physiological signal measurement},
+  author={Bingjie Wu, Menghan Zhou, Wei Liu, Xingyao Wang, Xingjian Zheng, Yiping Xie, Chaoqi Luo, Liangli Zhen*},
+  journal={The 3rd Vision-based Remote Physiological Signal Sensing (RePSS) Challenge & Workshop at IJCAI},
+  year={2024},
+  pdf={RePPS_HR.pdf},
+  abstract = {Heart rate measurements based on remote physiological signals could significantly facilitate health monitoring in daily life. However, the ground-truth labels of the physiological signals are expensive and hard to collect. In this paper, we present a contrastive self-supervised learning framework to extract discriminative remote physiological features by leveraging periodic signal priors without ground-truth labels in the pre-training stage. Specifically, a ranking loss and a contrastive learning loss are constructed to extract knowledge with resampling of the video clips. In addition, data augmentation and ensemble learning strategies are designed to fine-tune the pre-trained model and fuse the results to improve the heart rate measurement. Our final solution achieves the 1st place in track 1 of the 3rd Vision-based Remote Physiological Signal Sensing (RePSS) Challenge.},
+  preview={RePPS_HR.png}
+}
+
+@article{liu2024ensemble,
+  title={Ensemble deep learning for blood pressure estimation using facial videos},
+  author={Wei Liu, Bingjie Wu, Menghan Zhou, Xingyao Wang, Xingjian Zheng, Yiping Xie, Chaoqi Luo, Liangli Zhen*},
+  journal={The 3rd Vision-based Remote Physiological Signal Sensing (RePSS) Challenge & Workshop at IJCAI},
+  year={2024},
+  pdf={RePPS_BP.pdf},
+  abstract = {Blood pressure (BP) estimation is a standard and critical component of routine health assessment, especially for cardiac disease patients. Traditional methods typically require direct contact with the patient, which can cause discomfort and inconvenience. Remote photoplethysmography (rPPG) that enables non-contact measurement of the blood volume pulse using trivial cues from facial videos has drawn attention to measure vital signs. This paper presents an ensemble deep learning approach for estimating BP remotely using facial videos. Specifically, to address the vulnerabilities and biases in deep learning models for BP measurement, we emphasize both the accuracy of individual models and the diversity within the ensemble. We utilize advanced deep learning architectures to construct several regression models incorporating convolutional neural networks and transformer blocks, which learn the spatiotemporal relationships between different frames and locations. These trained models are then combined to measure BP readings. Additionally, to enhance the system's robustness under varying lighting conditions, data augmentation techniques are employed to generate more training data. The proposed method is tested on an unseen dataset and the average root of mean squared error (RMSE}) is 12.95 mmHg, ranking 1st in the 3rd Vision-based Remote Physiological Signal Sensing (RePSS) Challenge.},
+  preview={RePPS_BP.png}
+}
+
+@article{wang2024mednas,
+  title={MedNAS: Multi-scale training-free neural architecture search for medical image analysis},
+  author={Yan Wang and Liangli Zhen* and Jianwei Zhang and Miqing Li and Lei Zhang and Zizhou Wang and Yangqin Feng and Yu Xue and Xiao Wang and Zheng Chen and Tao Luo and Rich Siow Mong Goh and Yong Liu},
+  journal={IEEE Transactions on Evolutionary Computation},
+  year={2024},
+  pdf={MedNAS.pdf},
+  abstract = {Deep neural networks have demonstrated impressive results in medical image analysis, but designing suitable architectures for each specific task is expertise-dependent and time-consuming. Neural architecture search (NAS) offers an effective means of discovering architectures. It has been highly successful in numerous applications, particularly in natural image classification. Yet, medical images possess unique characteristics, such as small regions and a wide variety of lesion sizes, that differentiate them from natural images. Furthermore, most current NAS methods struggle with high computational costs, especially when dealing with high-resolution image datasets. In this paper, we present a novel evolutionary neural architecture search method called Multi-Scale Training-Free Neural Architecture Search to address these challenges. Specifically, to accommodate the broad range of lesion region sizes in disease diagnosis, we develop a new reduction cell search space that enables the search algorithm to explicitly identify the optimal scale combination for multi-scale feature extraction. To overcome the issue of high computational costs, we utilize training-free indicators as performance measures for candidate architectures, which allows us to search for the optimal architecture more efficiently. More specifically, by considering the capability and simplicity of various networks, we formulate a multi-objective optimization problem that involves two training-free indicators and model complexity for candidate architectures. Extensive experiments on a large medical image benchmark and a publicly available breast cancer detection dataset are conducted. The empirical results demonstrate that our MSTF-NAS outperforms both human-designed architectures and current state-of-the-art NAS algorithms on both datasets, indicating the effectiveness of our proposed method.},
+  preview={MedNAS.png}
+}
+
 
 @article{wang2024mednas,
   title={MedNAS: Multi-scale training-free neural architecture search for medical image analysis},
