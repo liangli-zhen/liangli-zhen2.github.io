@@ -1,26 +1,4 @@
 
-@article{wu2024an,
-  title={An end-to-end contrastive deep-learning framework for remote physiological signal measurement},
-  author={Bingjie Wu and Menghan Zhou and Wei Liu and Xingyao Wang and Xingjian Zheng and Yiping Xie and Chaoqi Luo and Liangli Zhen*},
-  journal={The 3rd RePSS Challenge and Workshop},
-  year={2024},
-  highlight={1st Place in Track 1 of RePSS Challenge at IJCAI-2024},
-  pdf={RePPS_HR.pdf},
-  abstract = {Heart rate measurements based on remote physiological signals could significantly facilitate health monitoring in daily life. However, the ground-truth labels of the physiological signals are expensive and hard to collect. In this paper, we present a contrastive self-supervised learning framework to extract discriminative remote physiological features by leveraging periodic signal priors without ground-truth labels in the pre-training stage. Specifically, a ranking loss and a contrastive learning loss are constructed to extract knowledge with resampling of the video clips. In addition, data augmentation and ensemble learning strategies are designed to fine-tune the pre-trained model and fuse the results to improve the heart rate measurement. Our final solution achieves the 1st place in track 1 of the 3rd Vision-based Remote Physiological Signal Sensing (RePSS) Challenge.},
-  preview={RePPS_HR.png}
-}
-
-@article{liu2024ensemblelearning,
-  title={Ensemble deep learning for blood pressure estimation using facial videos},
-  author={Wei Liu and Bingjie Wu and Menghan Zhou and Xingyao Wang and Xingjian Zheng and Yiping Xie and Chaoqi Luo and Liangli Zhen*},
-  journal={The 3rd RePSS Challenge and Workshop},
-  year={2024},
-  highlight={1st Place in Track 2 of RePSS Challenge at IJCAI-2024},
-  pdf={RePPS_BP.pdf},
-  abstract = {Blood pressure (BP) estimation is a standard and critical component of routine health assessment, especially for cardiac disease patients. Traditional methods typically require direct contact with the patient, which can cause discomfort and inconvenience. Remote photoplethysmography (rPPG) that enables non-contact measurement of the blood volume pulse using trivial cues from facial videos has drawn attention to measure vital signs. This paper presents an ensemble deep learning approach for estimating BP remotely using facial videos. Specifically, to address the vulnerabilities and biases in deep learning models for BP measurement, we emphasize both the accuracy of individual models and the diversity within the ensemble. We utilize advanced deep learning architectures to construct several regression models incorporating convolutional neural networks and transformer blocks, which learn the spatiotemporal relationships between different frames and locations. These trained models are then combined to measure BP readings. Additionally, to enhance the system's robustness under varying lighting conditions, data augmentation techniques are employed to generate more training data. The proposed method is tested on an unseen dataset and the average root of mean squared error (RMSE) is 12.95 mmHg, ranking 1st in the 3rd Vision-based Remote Physiological Signal Sensing (RePSS) Challenge.},
-  preview={RePPS_BP.png}
-}
-
 
 @article{wang2024mednas,
   title={MedNAS: Multi-scale training-free neural architecture search for medical image analysis},
@@ -62,6 +40,30 @@ pdf={GIRG.pdf},
   abstract = {This paper presents a novel method for supervised multi-view representation learning, which projects multiple views into a latent common space while preserving the discrimination and intrinsic structure of each view. Specifically, an \textit{apriori} discriminant similarity graph is first constructed based on labels and pairwise relationships of multi-view inputs. Then, view-specific networks progressively map inputs to common representations whose affinity approximates the constructed graph. To achieve graph consistency, discrimination, and cross-view invariance, the similarity graph is enforced to meet the following constraints: 1) pairwise relationship should be consistent between the input space and common space for each view; 2) within-class similarity is larger than any between-class similarity for each view; 3) the inter-view samples from the same (or different) classes are mutually similar (or dissimilar). Consequently, the intrinsic structure and discrimination are preserved in the latent common space using an apriori approximation schema. Moreover, we present a sampling strategy to approach a sub-graph sampled from the whole similarity structure instead of approximating the graph of the whole dataset explicitly, thus benefiting lower space complexity and the capability of handling large-scale multi-view datasets. Extensive experiments show the promising performance of our method on five datasets by comparing it with 18 state-of-the-art methods.},
   preview={DSMVL_2023.png}
 }
+
+
+@article{wu2024an,
+  title={An end-to-end contrastive deep-learning framework for remote physiological signal measurement},
+  author={Bingjie Wu and Menghan Zhou and Wei Liu and Xingyao Wang and Xingjian Zheng and Yiping Xie and Chaoqi Luo and Liangli Zhen*},
+  journal={The 3rd RePSS Challenge and Workshop},
+  year={2024},
+  highlight={1st Place in Track 1 of RePSS Challenge at IJCAI-2024},
+  pdf={RePPS_HR.pdf},
+  abstract = {Heart rate measurements based on remote physiological signals could significantly facilitate health monitoring in daily life. However, the ground-truth labels of the physiological signals are expensive and hard to collect. In this paper, we present a contrastive self-supervised learning framework to extract discriminative remote physiological features by leveraging periodic signal priors without ground-truth labels in the pre-training stage. Specifically, a ranking loss and a contrastive learning loss are constructed to extract knowledge with resampling of the video clips. In addition, data augmentation and ensemble learning strategies are designed to fine-tune the pre-trained model and fuse the results to improve the heart rate measurement. Our final solution achieves the 1st place in track 1 of the 3rd Vision-based Remote Physiological Signal Sensing (RePSS) Challenge.},
+  preview={RePPS_HR.png}
+}
+
+@article{liu2024ensemblelearning,
+  title={Ensemble deep learning for blood pressure estimation using facial videos},
+  author={Wei Liu and Bingjie Wu and Menghan Zhou and Xingyao Wang and Xingjian Zheng and Yiping Xie and Chaoqi Luo and Liangli Zhen*},
+  journal={The 3rd RePSS Challenge and Workshop},
+  year={2024},
+  highlight={1st Place in Track 2 of RePSS Challenge at IJCAI-2024},
+  pdf={RePPS_BP.pdf},
+  abstract = {Blood pressure (BP) estimation is a standard and critical component of routine health assessment, especially for cardiac disease patients. Traditional methods typically require direct contact with the patient, which can cause discomfort and inconvenience. Remote photoplethysmography (rPPG) that enables non-contact measurement of the blood volume pulse using trivial cues from facial videos has drawn attention to measure vital signs. This paper presents an ensemble deep learning approach for estimating BP remotely using facial videos. Specifically, to address the vulnerabilities and biases in deep learning models for BP measurement, we emphasize both the accuracy of individual models and the diversity within the ensemble. We utilize advanced deep learning architectures to construct several regression models incorporating convolutional neural networks and transformer blocks, which learn the spatiotemporal relationships between different frames and locations. These trained models are then combined to measure BP readings. Additionally, to enhance the system's robustness under varying lighting conditions, data augmentation techniques are employed to generate more training data. The proposed method is tested on an unseen dataset and the average root of mean squared error (RMSE) is 12.95 mmHg, ranking 1st in the 3rd Vision-based Remote Physiological Signal Sensing (RePSS) Challenge.},
+  preview={RePPS_BP.png}
+}
+
 
 @article{xue2024neural,
   title={Neural architecture search with progressive evaluation and sub-population preservation},
