@@ -20,6 +20,8 @@ Our work in machine learning includes safe & robust learning, multimodal learnin
 
 <i>Safe and robust machine learning</i>
 <ul>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/TNNLS_CJSL.pdf">TNNLS24</a>] A domain generalisation method with continuous disentangled joint space learning</li>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/GIRG.pdf">TNNLS24</a>] An generative gradient inversion attack method</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/ICCV2023_GGI.pdf">ICCV23</a>] A gradient inversion attack method in federated learning</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/MedIA2022_CDACM.pdf">MedIA23</a>] A domain adaptation method for medical image analysis</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/MedIA2022_AMFAM.pdf">MedIA22</a>] An adversarial multimodal learning method for automated skin lesion classification</li>
