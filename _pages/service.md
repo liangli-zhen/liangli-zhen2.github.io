@@ -12,8 +12,8 @@ horizontal: false
 Student supervisor
 <ul>
 <li>Sotthiwat Ekanut, <a href="https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa">
-	Singapore International Graduate Award (SINGA)</a> PhD student at the National University of Singapore. (Co-supervisor: <a href="https://www.comp.nus.edu.sg/~xiaoxk/">Prof Xiaokui Xiao</a>)</li>
-<li>Chen Tianying, Tiana, A*STAR Graduate Scholarship (AGS) Award PhD student at the National University of Singapore. (Co-supervisor: <a href="https://www.comp.nus.edu.sg/~wongls/">Prof Limsoon Wong</a>)</li>	
+	Singapore International Graduate Award (SINGA)</a> PhD student at the National University of Singapore. (Co-supervisor: <a href="https://www.comp.nus.edu.sg/~xiaoxk/">Prof Xiaokui Xiao</a>, IEEE Fellow)</li>
+<li>Chen Tianying, Tiana, A*STAR Graduate Scholarship (AGS) Award PhD student at the National University of Singapore. (Co-supervisor: <a href="https://www.comp.nus.edu.sg/~wongls/">Prof Limsoon Wong</a>, Singapore National Academy of Science Fellow & ACM Fellow)</li>	
 </ul>
 	
 Member of the Executive Area Chair Committee (EACC) for <a href="http://valser.org/article-364-1.html">Vision And Learning SEminar (VALSE)</a>
