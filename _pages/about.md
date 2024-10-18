@@ -28,7 +28,7 @@ social: false  # includes social icons at the bottom of the page
   <li>[Aug 2024] Our project on Cyber Sentinel: A Unified Framework for Safeguarding Foundation Models has been awarded the <a href="https://www.ntu.edu.sg/crpo/crpo-verticals/grant-management/grand-challenge">CyberSG Research and Development Programme Office (CRPO) Grand Challenge</a> Funding.</li>
   <li>[Aug 2024] We are currently offering open positions for visiting PhD students and internships in Reliable AI research.</li>
   <li>[Aug 2024] Our paper on Continuous Disentangled Joint Space Learning for Domain Generalization has been accepted for publication by the IEEE Transactions on Neural Networks and Learning Systems.</li>
-  <li>[May 2024] Our team has won the championship in the <a href="https://repss-w.github.io/">Third Vision-based Remote Physiological Signal Sensing (RePSS) Challenge</a> @IJCAI-2024.</li>
+  <li>[May 2024] Our team has won the championship in the <a href="https://repss-w.github.io/">IJCAI Vision-based Remote Physiological Signal Sensing (RePSS) Challenge</a>.</li>
   <li>[Apr 2024] Our paper on Neural Architecture Search with Progressive Evaluation and Sub-Population Preservation has been accepted for publication by the IEEE Transactions on Evolutionary Computation.</li>
   <li>[Mar 2024] Our paper on Generative Image Reconstruction from Gradients has been accepted by the IEEE Transactions on Neural Networks and Learning Systems.</li>
   <li>[Jan 2024] Our paper on Geometric Correspondence-Based Multimodal Learning for Ophthalmic Image Analysis has been accepted for publication by the IEEE Transactions on Medical Imaging.</li>
