@@ -19,7 +19,7 @@ social: false  # includes social icons at the bottom of the page
 
 <p align="justify">Welcome to my homepage! I am a group leader and senior scientist at the <a href="https://www.a-star.edu.sg/ihpc">Institute of High Performance Computing</a>, Agency for Science, Technology and Research (<a href="https://www.a-star.edu.sg/">A*STAR</a>), Singapore. I lead the AI Safety research group focused on enhancing the safety and robustness of AI systems for real-world deployment and use. Prior to joining IHPC, I received my PhD in Computer Science from Sichuan University, supervised by Professor Dezhong Peng. I was a joint PhD student at the University of Birmingham in the UK, supervised by Professor <a href="http://www.cs.bham.ac.uk/~xin/">Xin Yao</a> (IEEE Frank Rosenblatt Award Recipient).</p>
 
-<p align="justify">My research is mainly on machine learning and optimisation. Related research topics include multimodal learning, adversarial robustness, domain generalisation, neural architecture search, foundation models, evolutionary multi-objective optimisation, and more. <a href="https://scholar.google.com/citations?user=dtv_LZkAAAAJ&hl=en"><img src="assets/img/gs.png" width="12px"></a> </p>
+<p align="justify">My research is mainly on machine learning and optimisation. Related research topics include multimodal learning, adversarial robustness, domain generalisation, foundation models, evolutionary multi-objective optimisation, and more. <a href="https://scholar.google.com/citations?user=dtv_LZkAAAAJ&hl=en"><img src="assets/img/gs.png" width="12px"></a> </p>
 
 
 <Strong>News</strong>
