@@ -25,7 +25,7 @@ social: false  # includes social icons at the bottom of the page
 <Strong>News</strong>
 
 <ul align="justify">
-  <li>[Aug 2024] Our team ranked the 3rd place in the <a href="https://aisingapore.org/global-challenge-for-safe-and-secure-llms/">Global Challenge for Safe and Secure LLMs</a> Track 1A.</li>
+  <li>[Aug 2024] Our team ranked the 3rd place out of 100+ participating teams in the <a href="https://aisingapore.org/global-challenge-for-safe-and-secure-llms/">Global Challenge for Safe and Secure LLMs</a> Track 1A, organised by AI Singapore.</li>
   <li>[Aug 2024] Our project on Cyber Sentinel: A Unified Framework for Safeguarding Foundation Models has been awarded the <a href="https://www.ntu.edu.sg/crpo/crpo-verticals/grant-management/grand-challenge">CyberSG Research and Development Programme Office (CRPO) Grand Challenge</a> Funding.</li>
   <li>[Aug 2024] We are currently offering open positions for visiting PhD students and internships in Reliable AI research.</li>
   <li>[Aug 2024] Our paper on Continuous Disentangled Joint Space Learning for Domain Generalization has been accepted for publication by the IEEE Transactions on Neural Networks and Learning Systems.</li>
