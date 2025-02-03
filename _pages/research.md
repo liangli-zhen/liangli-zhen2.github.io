@@ -20,8 +20,9 @@ Our work in machine learning includes safe & robust learning, multimodal learnin
 
 <i>Safe and robust machine learning</i>
 <ul>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/GIRG.pdf">TNNLS25</a>] A generative gradient inversion attack method</li>
+<li>[AAAI25] A trustworthy learning method for cross-modal hashing</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/TNNLS_CJSL.pdf">TNNLS24</a>] A domain generalisation method with continuous disentangled joint space learning</li>
-<li>[<a href="https://liangli-zhen.github.io/assets/pdf/GIRG.pdf">TNNLS24</a>] A generative gradient inversion attack method</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/ICCV2023_GGI.pdf">ICCV23</a>] A gradient inversion attack method in federated learning</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/MedIA2022_CDACM.pdf">MedIA23</a>] A domain adaptation method for medical image analysis</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/MedIA2022_AMFAM.pdf">MedIA22</a>] An adversarial multimodal learning method for automated skin lesion classification</li>
@@ -29,8 +30,6 @@ Our work in machine learning includes safe & robust learning, multimodal learnin
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/TBD22_AMPC.pdf">TBD22</a>] A secure multi-party learning method for federated learning</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/CVPR2021_Learning_Cross-Modal_Retrieval_With_Noisy_Labels_CVPR_2021_paper.pdf">CVPR21</a>] A robust learning method for handling noisy labels</li>
 </ul>
-
-
 
 <i>Multimodal machine learning</i>
 <ul>
