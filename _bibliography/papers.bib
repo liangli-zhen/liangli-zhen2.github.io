@@ -15,6 +15,7 @@
 pdf={GIRG.pdf},
   preview={GIRG.png}
 }
+
 @article{wang2024continu,
   title={Continuous disentangled joint space learning for domain generalization},
   author={Zizhou Wang and Yan Wang and Yangqin Feng and Jiawei Du and Yong Liu and Rick Siow Mong Goh and Liangli Zhen*},
@@ -23,16 +24,6 @@ pdf={GIRG.pdf},
   abstract = {Domain generalization aims to learn a model on one or multiple observed source domains that can generalize to unseen target test domains. Previous approaches have focused on extracting domain-invariant information from multiple source domains, but domain-specific information is also closely tied to semantics in individual domains and is not well-suited for generalization to the target domain. In this paper, we propose a novel domain generalization method called Continuous Disentangled Joint Space Learning (CJSL), which leverages both domain-invariant and domain-specific information for more effective domain generalization. The key idea behind CJSL is to formulate and learn a continuous joint space for domain-specific representations from source domains through iterative feature disentanglement. This learned continuous joint space can then be used to simulate domain-specific representations for test samples from a mixture of multiple domains via Monte Carlo sampling during the inference stage. Unlike existing approaches, which exploit domain-invariant feature vectors only or aim to learn a universal domain-specific feature extractor, we simulate domain-specific representations via sampling the latent vectors in the learned continuous joint space for the test sample to fully utilize the power of multiple domain-specific classifiers for the robust prediction. Empirical results demonstrate that CJSL outperforms 19 state-of-the-art methods on seven benchmarks, indicating the effectiveness of our proposed method.},
   pdf={TNNLS_CJSL.pdf},
   preview={DG_TNNLS.png}
-}
-
-@article{wang2024mednas,
-  title={MedNAS: Multi-scale training-free neural architecture search for medical image analysis},
-  author={Yan Wang and Liangli Zhen* and Jianwei Zhang and Miqing Li and Lei Zhang and Zizhou Wang and Yangqin Feng and Yu Xue and Xiao Wang and Zheng Chen and Tao Luo and Rick Siow Mong Goh and Yong Liu},
-  journal={IEEE Transactions on Evolutionary Computation},
-  year={2024},
-  pdf={MedNAS.pdf},
-  abstract = {Deep neural networks have demonstrated impressive results in medical image analysis, but designing suitable architectures for each specific task is expertise-dependent and time-consuming. Neural architecture search (NAS) offers an effective means of discovering architectures. It has been highly successful in numerous applications, particularly in natural image classification. Yet, medical images possess unique characteristics, such as small regions and a wide variety of lesion sizes, that differentiate them from natural images. Furthermore, most current NAS methods struggle with high computational costs, especially when dealing with high-resolution image datasets. In this paper, we present a novel evolutionary neural architecture search method called Multi-Scale Training-Free Neural Architecture Search to address these challenges. Specifically, to accommodate the broad range of lesion region sizes in disease diagnosis, we develop a new reduction cell search space that enables the search algorithm to explicitly identify the optimal scale combination for multi-scale feature extraction. To overcome the issue of high computational costs, we utilize training-free indicators as performance measures for candidate architectures, which allows us to search for the optimal architecture more efficiently. More specifically, by considering the capability and simplicity of various networks, we formulate a multi-objective optimization problem that involves two training-free indicators and model complexity for candidate architectures. Extensive experiments on a large medical image benchmark and a publicly available breast cancer detection dataset are conducted. The empirical results demonstrate that our MSTF-NAS outperforms both human-designed architectures and current state-of-the-art NAS algorithms on both datasets, indicating the effectiveness of our proposed method.},
-  preview={MedNAS.png}
 }
 
 @article{wang2024gecom,
@@ -45,8 +36,6 @@ pdf={GIRG.pdf},
   preview={GeCoM-Net.png}
 }
 
-
-
 @article{hu2024deep,
   title={Deep supervised multi-view learning with graph priors},
   author={Peng Hu and Liangli Zhen* and Xi Peng and Hongyuan Zhu and Jie Lin and Xu Wang and Dezhong Peng},
@@ -57,45 +46,15 @@ pdf={GIRG.pdf},
   abstract = {This paper presents a novel method for supervised multi-view representation learning, which projects multiple views into a latent common space while preserving the discrimination and intrinsic structure of each view. Specifically, an \textit{apriori} discriminant similarity graph is first constructed based on labels and pairwise relationships of multi-view inputs. Then, view-specific networks progressively map inputs to common representations whose affinity approximates the constructed graph. To achieve graph consistency, discrimination, and cross-view invariance, the similarity graph is enforced to meet the following constraints: 1) pairwise relationship should be consistent between the input space and common space for each view; 2) within-class similarity is larger than any between-class similarity for each view; 3) the inter-view samples from the same (or different) classes are mutually similar (or dissimilar). Consequently, the intrinsic structure and discrimination are preserved in the latent common space using an apriori approximation schema. Moreover, we present a sampling strategy to approach a sub-graph sampled from the whole similarity structure instead of approximating the graph of the whole dataset explicitly, thus benefiting lower space complexity and the capability of handling large-scale multi-view datasets. Extensive experiments show the promising performance of our method on five datasets by comparing it with 18 state-of-the-art methods.},
   preview={DSMVL_2023.png}
 }
-@article{Jia2024Global,
-  title={Global challenge for safe and secure LLMs track 1},
-  author={Xiaojun Jia and Yihao Huang and Yang Liu and Peng Yan Tan and Weng Kuan Yau and Others},
-  journal={arXiv preprint arXiv:2411.14502},
-  year={2024},
-  abstract = {This paper introduces the Global Challenge for Safe and Secure Large Language Models (LLMs), a pioneering initiative organized by AI Singapore (AISG) and the CyberSG R\&D Programme Office (CRPO) to foster the development of advanced defense mechanisms against automated jailbreaking attacks.  With the increasing integration of LLMs in critical sectors such as healthcare, finance, and public administration, ensuring these models are resilient to adversarial attacks is vital for preventing misuse and upholding ethical standards.  This competition focused on two distinct tracks designed to evaluate and enhance the robustness of LLM security frameworks. Track 1 tasked participants with developing automated methods to probe LLM vulnerabilities by eliciting undesirable responses, effectively testing the limits of existing safety protocols within LLMs.  Participants were challenged to devise techniques that could bypass content safeguards across a diverse array of scenarios, from offensive language to misinformation and illegal activities.  Through this process, Track 1 aimed to deepen the understanding of LLM vulnerabilities and provide insights for creating more resilient models. The results of Track 1 highlighted significant advances in jailbreak methods and security testing for LLMs. Competing teams were evaluated based on their models' resistance to 85 predefined undesirable behaviors, spanning categories such as prejudice, offensive content, misinformation, and promotion of illegal activities.  Notably, top-performing teams achieved high attack success rates by introducing innovative techniques, including scenario induction templates that systematically generated context-sensitive prompts and re-suffix attack mechanisms, which adapted suffixes to bypass model filters across multiple LLMs.  These techniques demonstrated not only effectiveness in circumventing safeguards but also transferability across different model types, underscoring the adaptability and sophistication of modern adversarial methods. Track 2, scheduled to begin in 2025, will emphasize the development of model-agnostic defense strategies aimed at countering advanced jailbreak attacks. The primary objective of this track is to advance adaptable frameworks that can effectively mitigate adversarial attacks across various LLM architectures.},
-  pdf={aisg_safe_secure_llms.pdf},
-  preview={aredteam.png}
-}
 
-@article{wu2024an,
-  title={An end-to-end contrastive deep-learning framework for remote physiological signal measurement},
-  author={Bingjie Wu and Menghan Zhou and Wei Liu and Xingyao Wang and Xingjian Zheng and Yiping Xie and Chaoqi Luo and Liangli Zhen*},
-  journal={IJCAI Vision-based Remote Physiological Signal Sensing Challenge},
+@article{wang2024mednas,
+  title={MedNAS: Multi-scale training-free neural architecture search for medical image analysis},
+  author={Yan Wang and Liangli Zhen* and Jianwei Zhang and Miqing Li and Lei Zhang and Zizhou Wang and Yangqin Feng and Yu Xue and Xiao Wang and Zheng Chen and Tao Luo and Rick Siow Mong Goh and Yong Liu},
+  journal={IEEE Transactions on Evolutionary Computation},
   year={2024},
-  highlight={1st Place in Track 1 of RePSS Challenge at IJCAI-2024},
-  pdf={RePPS_HR.pdf},
-  abstract = {Heart rate measurements based on remote physiological signals could significantly facilitate health monitoring in daily life. However, the ground-truth labels of the physiological signals are expensive and hard to collect. In this paper, we present a contrastive self-supervised learning framework to extract discriminative remote physiological features by leveraging periodic signal priors without ground-truth labels in the pre-training stage. Specifically, a ranking loss and a contrastive learning loss are constructed to extract knowledge with resampling of the video clips. In addition, data augmentation and ensemble learning strategies are designed to fine-tune the pre-trained model and fuse the results to improve the heart rate measurement. Our final solution achieves the 1st place in track 1 of the 3rd Vision-based Remote Physiological Signal Sensing (RePSS) Challenge.},
-  preview={RePPS_HR.png}
-}
-
-@article{liu2024ensemblelearning,
-  title={Ensemble deep learning for blood pressure estimation using facial videos},
-  author={Wei Liu and Bingjie Wu and Menghan Zhou and Xingyao Wang and Xingjian Zheng and Yiping Xie and Chaoqi Luo and Liangli Zhen*},
-  journal={IJCAI Vision-based Remote Physiological Signal Sensing Challenge},
-  year={2024},
-  highlight={1st Place in Track 2 of RePSS Challenge at IJCAI-2024},
-  pdf={RePPS_BP.pdf},
-  abstract = {Blood pressure (BP) estimation is a standard and critical component of routine health assessment, especially for cardiac disease patients. Traditional methods typically require direct contact with the patient, which can cause discomfort and inconvenience. Remote photoplethysmography (rPPG) that enables non-contact measurement of the blood volume pulse using trivial cues from facial videos has drawn attention to measure vital signs. This paper presents an ensemble deep learning approach for estimating BP remotely using facial videos. Specifically, to address the vulnerabilities and biases in deep learning models for BP measurement, we emphasize both the accuracy of individual models and the diversity within the ensemble. We utilize advanced deep learning architectures to construct several regression models incorporating convolutional neural networks and transformer blocks, which learn the spatiotemporal relationships between different frames and locations. These trained models are then combined to measure BP readings. Additionally, to enhance the system's robustness under varying lighting conditions, data augmentation techniques are employed to generate more training data. The proposed method is tested on an unseen dataset and the average root of mean squared error (RMSE) is 12.95 mmHg, ranking 1st in the 3rd Vision-based Remote Physiological Signal Sensing (RePSS) Challenge.},
-  preview={RePPS_BP.png}
-}
-
-@article{zhou2024medmlp,
-  title={MedMLP: An efficient MLP-like network for zero-shot retinal image classification},
-  author={Menghan Zhou and Yanyu Xu and Zhi Da Soh and Huazhu Fu and Rick Siow Mong Goh and Ching-Yu Cheng and Yong Liu and Liangli Zhen},
-  journal={MICCAI},
-  year={2024},
-  abstract = {Deep neural networks (DNNs) have demonstrated superior performance compared to humans across various tasks. However, DNNs often face the challenge of domain shift, where their performance notably deteriorates when applied to medical images with distributions differing from those seen during training. To address this issue and achieve high performance in new target domains under zero-shot settings, we leverage the ability of self-attention mechanisms to capture global dependencies. We introduce a novel MLP-like model designed for superior efficiency and zero-shot robustness. Specifically, we propose an adaptive fully-connected (AdaFC) layer to overcome the fundamental limitation of traditional fully-connected layers in adapting to inputs of various sizes while maintaining computational efficiency. Building upon AdaFC, we present a new MLP-based network architecture named MedMLP. Through our proposed training pipeline, we achieve a significant 20.1\% increase in model testing accuracy on an out-of-distribution dataset, surpassing the widely used ResNet-50 model.},
- preview={MedMLP.png}
+  pdf={MedNAS.pdf},
+  abstract = {Deep neural networks have demonstrated impressive results in medical image analysis, but designing suitable architectures for each specific task is expertise-dependent and time-consuming. Neural architecture search (NAS) offers an effective means of discovering architectures. It has been highly successful in numerous applications, particularly in natural image classification. Yet, medical images possess unique characteristics, such as small regions and a wide variety of lesion sizes, that differentiate them from natural images. Furthermore, most current NAS methods struggle with high computational costs, especially when dealing with high-resolution image datasets. In this paper, we present a novel evolutionary neural architecture search method called Multi-Scale Training-Free Neural Architecture Search to address these challenges. Specifically, to accommodate the broad range of lesion region sizes in disease diagnosis, we develop a new reduction cell search space that enables the search algorithm to explicitly identify the optimal scale combination for multi-scale feature extraction. To overcome the issue of high computational costs, we utilize training-free indicators as performance measures for candidate architectures, which allows us to search for the optimal architecture more efficiently. More specifically, by considering the capability and simplicity of various networks, we formulate a multi-objective optimization problem that involves two training-free indicators and model complexity for candidate architectures. Extensive experiments on a large medical image benchmark and a publicly available breast cancer detection dataset are conducted. The empirical results demonstrate that our MSTF-NAS outperforms both human-designed architectures and current state-of-the-art NAS algorithms on both datasets, indicating the effectiveness of our proposed method.},
+  preview={MedNAS.png}
 }
 
 @article{xue2024neural,
@@ -107,7 +66,6 @@ pdf={GIRG.pdf},
  preview={PEPNAS.png}
 }
 
-
 @article{Xue2024evolutionary,
   title={Evolutionary architecture search for generative adversarial networks based on weight sharing},
   author={Yu Xue and Weinan Tong and Ferrante Neri and Peng Chen and Tao Luo and Liangli Zhen and Xiao Wang},
@@ -118,6 +76,17 @@ pdf={GIRG.pdf},
   preview={EWSGAN2.png}
 }
 
+@article{Jia2024Global,
+  title={Global challenge for safe and secure LLMs track 1},
+  author={Xiaojun Jia and Yihao Huang and Yang Liu and Peng Yan Tan and Weng Kuan Yau and Others},
+  journal={arXiv preprint arXiv:2411.14502},
+  year={2024},
+  abstract = {This paper introduces the Global Challenge for Safe and Secure Large Language Models (LLMs), a pioneering initiative organized by AI Singapore (AISG) and the CyberSG R\&D Programme Office (CRPO) to foster the development of advanced defense mechanisms against automated jailbreaking attacks.  With the increasing integration of LLMs in critical sectors such as healthcare, finance, and public administration, ensuring these models are resilient to adversarial attacks is vital for preventing misuse and upholding ethical standards.  This competition focused on two distinct tracks designed to evaluate and enhance the robustness of LLM security frameworks. Track 1 tasked participants with developing automated methods to probe LLM vulnerabilities by eliciting undesirable responses, effectively testing the limits of existing safety protocols within LLMs.  Participants were challenged to devise techniques that could bypass content safeguards across a diverse array of scenarios, from offensive language to misinformation and illegal activities.  Through this process, Track 1 aimed to deepen the understanding of LLM vulnerabilities and provide insights for creating more resilient models. The results of Track 1 highlighted significant advances in jailbreak methods and security testing for LLMs. Competing teams were evaluated based on their models' resistance to 85 predefined undesirable behaviors, spanning categories such as prejudice, offensive content, misinformation, and promotion of illegal activities.  Notably, top-performing teams achieved high attack success rates by introducing innovative techniques, including scenario induction templates that systematically generated context-sensitive prompts and re-suffix attack mechanisms, which adapted suffixes to bypass model filters across multiple LLMs.  These techniques demonstrated not only effectiveness in circumventing safeguards but also transferability across different model types, underscoring the adaptability and sophistication of modern adversarial methods. Track 2, scheduled to begin in 2025, will emphasize the development of model-agnostic defense strategies aimed at countering advanced jailbreak attacks. The primary objective of this track is to advance adaptable frameworks that can effectively mitigate adversarial attacks across various LLM architectures.},
+  pdf={aisg_safe_secure_llms.pdf},
+  preview={aredteam.png}
+}
+
+
 @article{zhang2023generative,
   title={Generative gradient inversion via over-parameterized convolutional networks in federated learning},
   author={Chi Zhang and Xiaoman Zhang and Ekanut Sotthiwat and Yanyu Xu and Ping Liu and Liangli Zhen* and Yong Liu},
@@ -127,30 +96,6 @@ pdf={GIRG.pdf},
   code={https://github.com/czhang024/CI-Net},
   pdf={ICCV2023_GGI.pdf},
   preview={GGI_2023.png}
-}
-
-@article{wu2023lowres,
-  title={Low-resolution self-attention for semantic segmentation},
-  author={Yu-Huan Wu and Shi-Chen Zhang and Yun Liu and Le Zhang and Xin Zhan and Daquan Zhou and Jiashi Feng and Ming-Ming Cheng and Liangli Zhen},
-  journal={arXiv preprint arXiv:2310.05026},
-  year={2023},
-  abstract = {Semantic segmentation tasks naturally require high-resolution information for pixel-wise segmentation and global context information for class prediction. While existing vision transformers demonstrate promising performance, they often utilize high resolution context modeling, resulting in a computational bottleneck. In this work, we challenge conventional wisdom and introduce the Low-Resolution Self-Attention (LRSA) mechanism to capture global context at a significantly reduced computational cost. Our approach involves computing self-attention in a fixed low-resolution space regardless of the input image's resolution, with additional 3x3 depth-wise convolutions to capture fine details in the high-resolution space. We demonstrate the effectiveness of our LRSA approach by building the LRFormer, a vision transformer with an encoder-decoder structure. Extensive experiments on the ADE20K, COCO-Stuff, and Cityscapes datasets demonstrate that LRFormer outperforms state-of-the-art models.},
-  code={https://github.com/yuhuan-wu/LRFormer},
-  pdf={Wu_arX2023.pdf},
-  preview={Wu_arX2023.png}
-}
-
-@article{feng2023contrastive,
-  title={Deep neural network augments performance of junior residents in diagnosing COVID-19 pneumonia on chest radiographs},
-  author={Yangqin Feng and Jordan Sim Zheng Ting and Xinxing Xu and others},
-  journal={Diagnostics},
-  volume={13},
-  number={8},
-  pages={1397},
-  year={2023},
-  abstract = {Chest X-rays (CXRs) are essential in the preliminary radiographic assessment of patients affected by COVID-19. Junior residents, as the first point-of-contact in the diagnostic process, are expected to interpret these CXRs accurately. We aimed to assess the effectiveness of a deep neural network in distinguishing COVID-19 from other types of pneumonia, and to determine its potential contribution to improving the diagnostic precision of less experienced residents. A total of 5051 CXRs were utilized to develop and assess an artificial intelligence (AI) model capable of performing three-class classification, namely non-pneumonia, non-COVID-19 pneumonia, and COVID-19 pneumonia. Additionally, an external dataset comprising 500 distinct CXRs was examined by three junior residents with differing levels of training. The CXRs were evaluated both with and without AI assistance. The AI model demonstrated impressive performance, with an Area under the ROC Curve (AUC) of 0.9518 on the internal test set and 0.8594 on the external test set, which improves the AUC score of the current state-of-the-art algorithms by 1.25% and 4.26%, respectively. When assisted by the AI model, the performance of the junior residents improved in a manner that was inversely proportional to their level of training. Among the three junior residents, two showed significant improvement with the assistance of AI. This research highlights the novel development of an AI model for three-class CXR classification and its potential to augment junior residents’ diagnostic accuracy, with validation on external data to demonstrate real-world applicability. In practical use, the AI model effectively supported junior residents in interpreting CXRs, boosting their confidence in diagnosis. While the AI model improved junior residents’ performance, a decline in performance was observed on the external test compared to the internal test set. This suggests a domain shift between the patient dataset and the external dataset, highlighting the need for future research on test-time training domain adaptation to address this issue.},
-  pdf={https://www.mdpi.com/2075-4418/13/8/1397/pdf?version=1681270481},
-  preview={DNNAPJR_2023.png}
 }
 
 @article{feng2023contrastive,
@@ -165,18 +110,15 @@ pdf={GIRG.pdf},
   preview={CDACM_2023.jpeg}
 }
 
-@article{wang2022adversarial,
-  title={Adversarial multimodal fusion with attention mechanism for skin lesion classification using clinical and dermoscopic images},
-  author={Wang, Yan and Feng, Yangqin and Zhang, Lei and Zhou, Joey Tianyi and Liu, Yong and Goh, Rick Siow Mong and Zhen*, Liangli},
-  journal={Medical Image Analysis},
-  volume={81},
-  pages={102535},
-  year={2022},
-  publisher={Elsevier},
-  abbr={MedIA},
-  pdf={MedIA2022_AMFAM.pdf},
-  preview={MedIA_2022.png},
-  abstract = {Accurate skin lesion diagnosis requires a great effort from experts to identify the characteristics from clinical and dermoscopic images. Deep multimodal learning-based methods can reduce intra- and inter-reader variability and improve diagnostic accuracy compared to the single modality-based methods. This study develops a novel method, named adversarial multimodal fusion with attention mechanism (AMFAM), to perform multimodal skin lesion classification. Specifically, we adopt a discriminator that uses adversarial learning to enforce the feature extractor to learn the correlated information explicitly. Moreover, we design an attention-based reconstruction strategy to encourage the feature extractor to concentrate on learning the features of the lesion area, thus, enhancing the feature vector from each modality with more discriminative information. Unlike existing multimodal-based approaches, which only focus on learning complementary features from dermoscopic and clinical images, our method considers both correlated and complementary information of the two modalities for multimodal fusion. To verify the effectiveness of our method, we conduct comprehensive experiments on a publicly available multimodal and multi-task skin lesion classification dataset: 7-point criteria evaluation database. The experimental results demonstrate that our proposed method outperforms the current state-of-the-art methods and improves the average AUC score by above 2% on the test set.}
+@article{wu2023lowres,
+  title={Low-resolution self-attention for semantic segmentation},
+  author={Yu-Huan Wu and Shi-Chen Zhang and Yun Liu and Le Zhang and Xin Zhan and Daquan Zhou and Jiashi Feng and Ming-Ming Cheng and Liangli Zhen},
+  journal={arXiv preprint arXiv:2310.05026},
+  year={2023},
+  abstract = {Semantic segmentation tasks naturally require high-resolution information for pixel-wise segmentation and global context information for class prediction. While existing vision transformers demonstrate promising performance, they often utilize high resolution context modeling, resulting in a computational bottleneck. In this work, we challenge conventional wisdom and introduce the Low-Resolution Self-Attention (LRSA) mechanism to capture global context at a significantly reduced computational cost. Our approach involves computing self-attention in a fixed low-resolution space regardless of the input image's resolution, with additional 3x3 depth-wise convolutions to capture fine details in the high-resolution space. We demonstrate the effectiveness of our LRSA approach by building the LRFormer, a vision transformer with an encoder-decoder structure. Extensive experiments on the ADE20K, COCO-Stuff, and Cityscapes datasets demonstrate that LRFormer outperforms state-of-the-art models.},
+  code={https://github.com/yuhuan-wu/LRFormer},
+  pdf={Wu_arX2023.pdf},
+  preview={Wu_arX2023.png}
 }
 
 
@@ -192,44 +134,6 @@ pdf={GIRG.pdf},
   pdf={TNNLS2022_DMTL_CMR.pdf},
   preview={TNNLS2022_MTL.png},
   abstract={Cross-modal retrieval (CMR) enables flexible retrieval experience across different modalities (e.g., texts versus images), which maximally benefits us from the abundance of multimedia data. Existing deep CMR approaches commonly require a large amount of labeled data for training to achieve high performance. However, it is time-consuming and expensive to annotate the multimedia data manually. Thus, how to transfer valuable knowledge from existing annotated data to new data, especially from the known categories to new categories, becomes attractive for real-world applications. To achieve this end, we propose a deep multimodal transfer learning (DMTL) approach to transfer the knowledge from the previously labeled categories (source domain) to improve the retrieval performance on the unlabeled new categories (target domain). Specifically, we employ a joint learning paradigm to transfer knowledge by assigning a pseudolabel to each target sample. During training, the pseudolabel is iteratively updated and passed through our model in a self-supervised manner. At the same time, to reduce the domain discrepancy of different modalities, we construct multiple modality-specific neural networks to learn a shared semantic space for different modalities by enforcing the compactness of homoinstance samples and the scatters of heteroinstance samples. Our method is remarkably different from most of the existing transfer learning approaches. To be specific, previous works usually assume that the source domain and the target domain have the same label set. In contrast, our method considers a more challenging multimodal learning situation where the label sets of the two domains are different or even disjoint. Experimental studies on four widely used benchmarks validate the effectiveness of the proposed method in multimodal transfer learning and demonstrate its superior performance in CMR compared with 11 state-of-the-art methods.}
-}
-
-@article{zhang2022aug,
-  title={Augmented multi-party computation against gradient leakage in federated learning},
-  author={Zhang, Chi and Sotthiwat, Ekanut and Zhen*, Liangli and Li, Zengxiang},
-  journal={IEEE Transactions on Big Data},
-  abbr={IEEE TBD},
-  year={2022},
-  preview={TBD22_AMPC.png},
-  pdf={TBD22_AMPC.pdf},
-  abstract={Multi-Party Computation (MPC) provides an effective cryptographic solution for distributed computing systems so that local models with sensitive information are encrypted before sending to the centralized servers for aggregation. Though direct local knowledge leakages are eliminated in MPC-based algorithms, we observe the server can still obtain the local information indirectly in many scenarios, or even reveal the groundtruth images through methods like Deep Leakage from Gradients (DLG). To eliminate such possibilities and provide stronger protections, we propose an augmented MPC approach by encrypting local models with two rounds of decomposition before transmitting to the server. The proposed solution allows us to remove the constraint that servers must be honest in the general federated learning settings since the true global model is hidden from the servers. Specifically,  the augmented MPC algorithm encodes local models into multiple secret shares in the first round, then each share is furthermore split into a public share and a private share. The consequences of such a two-round decomposition are that the augmented algorithm fully inherits the advantages of standard MPC by providing lossless encryption and decryption while simultaneously rendering the global model invisible to the central server. Both theoretical analysis and experimental verification demonstrate that such an augmented solution can provide stronger protections for the security and privacy of the training data, with minimal extra communication and computation costs incurred.}
-}
-
-@inproceedings{du2022efficient,
-  title={Efficient sharpness-aware minimization for improved training of neural networks},
-  author={Du, Jiawei and Yan, Hanshu and Feng, Jiashi and Zhou, Joey Tianyi and Zhen, Liangli and Goh, Rick Siow Mong and Tan, Vincent YF},
-  booktitle={ICLR},
-  abbr={ICLR-2022},
-  year={2022},
-  pdf={ICLR2022_efficient_sharpness_aware_mini.pdf},
-  code={https://github.com/dydjw9/efficient_sam},
-  preview={ICLR22_ESAM.png},
-  abstract={Overparametrized Deep Neural Networks (DNNs) often achieve astounding performances, but may potentially result in severe generalization error. Recently, the relation between the sharpness of the loss landscape and the generalization error has been established by Foret et al. (2020), in which the Sharpness Aware Minimizer (SAM) was proposed to mitigate the degradation of the generalization. Unfortunately, SAM’s computational cost is roughly double that of base optimizers, such as Stochastic Gradient Descent (SGD). This paper thus proposes Efficient Sharpness Aware Minimizer (ESAM), which boosts SAM’s efficiency at no cost to its generalization performance. ESAM includes two novel and efficient training strategies—StochasticWeight Perturbation and Sharpness-Sensitive Data Selection. In the former, the sharpness measure is approximated by perturbing a stochastically chosen set of weights in each iteration; in the latter, the SAM loss is optimized using only a judiciously selected subset of data that is sensitive to the sharpness. We provide theoretical explanations as to why these strategies perform well. We also show, via extensive experiments on the CIFAR and ImageNet datasets, that ESAM enhances the efficiency over SAM from requiring 100% extra computations to 40% vis-`a-vis base optimizers, while test accuracies are preserved or even improved.}
-}
-
-@article{feng2022deep,
-  title={Deep supervised domain adaptation for pneumonia diagnosis from chest X-ray images},
-  author={Feng, Yangqin and Xu, Xinxing and Wang, Yan and Lei, Xiaofeng and Teo, Soo Kng and Ting, Jordan Sim Zheng and Ting, Yonghan and Zhen, Liangli and Zhou, Joey Tianyi and Liu, Yong and others},
-  journal={IEEE Journal of Biomedical and Health Informatics},
-  abbr={IEEE JBHI},
-  volume={26},
-  number={3},
-  pages={1080--1090},
-  year={2022},
-  pdf={JBHI2021-Deep_Supervised_Domain_Adaptation_for_Pneumonia_Diagnosis_From_Chest_X-Ray_Images.pdf},
-  publisher={IEEE},
-  preview={JBHI22_DSDA.png},
-  abstract={Pneumonia is one of the most common treatable causes of death, and early diagnosis allows for early intervention. Automated diagnosis of pneumonia can therefore improve outcomes. However, it is challenging to develop high-performance deep learning models due to the lack of well-annotated data for training. This paper proposes a novel method, called Deep Supervised Domain Adaptation (DSDA), to automatically diagnose pneumonia from chest X-ray images. Specifically, we propose to transfer the knowledge from a publicly available large-scale source dataset (ChestX-ray14) to a well-annotated but small-scale target dataset (the TTSH dataset). DSDA aligns the distributions of the source domain and the target domain according to the underlying semantics of the training samples. It includes two task-specific sub-networks for the source domain and the target domain, respectively. These two sub-networks share the feature extraction layers and are trained in an end-to-end manner. Unlike most existing domain adaptation approaches that perform the same tasks in the source domain and the target domain, we attempt to transfer the knowledge from a multi-label classification task in the source domain to a binary classification task in the target domain. To evaluate the effectiveness of our method, we compare it with several existing peer methods. The experimental results show that our method can achieve promising performance for automated pneumonia diagnosis.}
 }
 
 @article{hu2022deep,
@@ -262,6 +166,71 @@ pdf={GIRG.pdf},
   abstract={Natural Language Video Localization (NLVL) aims to locate a target moment from an untrimmed video that semantically corresponds to a text query. Existing approaches mainly solve the NLVL problem from the perspective of computer vision by formulating it as ranking, anchor, or regression tasks. These methods suffer from large performance degradation when localizing on long videos. In this work, we address the NLVL from a new perspective, i.e., span-based question answering (QA), by treating the input video as a text passage. We propose a video span localizing network (VSLNet), on top of the standard span-based QA framework (named VSLBase), to address NLVL. VSLNet tackles the differences between NLVL and span-based QA through a simple yet effective query-guided highlighting (QGH) strategy. QGH guides VSLNet to search for the matching video span within a highlighted region. To address the performance degradation on long videos, we further extend VSLNet to VSLNet-L by applying a multi-scale split-and-concatenation strategy. VSLNet-L first splits the untrimmed video into short clip segments; then, it predicts which clip segment contains the target moment and suppresses the importance of other segments. Finally, the clip segments are concatenated, with different confidences, to locate the target moment accurately. Extensive experiments on three benchmark datasets show that the proposed VSLNet and VSLNet-L outperform the state-of-the-art methods; VSLNet-L addresses the issue of performance degradation on long videos. Our study suggests that the span-based QA framework is an effective strategy to solve the NLVL problem.}
 }
 
+@article{zhang2022aug,
+  title={Augmented multi-party computation against gradient leakage in federated learning},
+  author={Zhang, Chi and Sotthiwat, Ekanut and Zhen*, Liangli and Li, Zengxiang},
+  journal={IEEE Transactions on Big Data},
+  abbr={IEEE TBD},
+  year={2022},
+  preview={TBD22_AMPC.png},
+  pdf={TBD22_AMPC.pdf},
+  abstract={Multi-Party Computation (MPC) provides an effective cryptographic solution for distributed computing systems so that local models with sensitive information are encrypted before sending to the centralized servers for aggregation. Though direct local knowledge leakages are eliminated in MPC-based algorithms, we observe the server can still obtain the local information indirectly in many scenarios, or even reveal the groundtruth images through methods like Deep Leakage from Gradients (DLG). To eliminate such possibilities and provide stronger protections, we propose an augmented MPC approach by encrypting local models with two rounds of decomposition before transmitting to the server. The proposed solution allows us to remove the constraint that servers must be honest in the general federated learning settings since the true global model is hidden from the servers. Specifically,  the augmented MPC algorithm encodes local models into multiple secret shares in the first round, then each share is furthermore split into a public share and a private share. The consequences of such a two-round decomposition are that the augmented algorithm fully inherits the advantages of standard MPC by providing lossless encryption and decryption while simultaneously rendering the global model invisible to the central server. Both theoretical analysis and experimental verification demonstrate that such an augmented solution can provide stronger protections for the security and privacy of the training data, with minimal extra communication and computation costs incurred.}
+}
+
+@article{wang2022adversarial,
+  title={Adversarial multimodal fusion with attention mechanism for skin lesion classification using clinical and dermoscopic images},
+  author={Wang, Yan and Feng, Yangqin and Zhang, Lei and Zhou, Joey Tianyi and Liu, Yong and Goh, Rick Siow Mong and Zhen*, Liangli},
+  journal={Medical Image Analysis},
+  volume={81},
+  pages={102535},
+  year={2022},
+  publisher={Elsevier},
+  abbr={MedIA},
+  pdf={MedIA2022_AMFAM.pdf},
+  preview={MedIA_2022.png},
+  abstract = {Accurate skin lesion diagnosis requires a great effort from experts to identify the characteristics from clinical and dermoscopic images. Deep multimodal learning-based methods can reduce intra- and inter-reader variability and improve diagnostic accuracy compared to the single modality-based methods. This study develops a novel method, named adversarial multimodal fusion with attention mechanism (AMFAM), to perform multimodal skin lesion classification. Specifically, we adopt a discriminator that uses adversarial learning to enforce the feature extractor to learn the correlated information explicitly. Moreover, we design an attention-based reconstruction strategy to encourage the feature extractor to concentrate on learning the features of the lesion area, thus, enhancing the feature vector from each modality with more discriminative information. Unlike existing multimodal-based approaches, which only focus on learning complementary features from dermoscopic and clinical images, our method considers both correlated and complementary information of the two modalities for multimodal fusion. To verify the effectiveness of our method, we conduct comprehensive experiments on a publicly available multimodal and multi-task skin lesion classification dataset: 7-point criteria evaluation database. The experimental results demonstrate that our proposed method outperforms the current state-of-the-art methods and improves the average AUC score by above 2% on the test set.}
+}
+
+@inproceedings{du2022efficient,
+  title={Efficient sharpness-aware minimization for improved training of neural networks},
+  author={Du, Jiawei and Yan, Hanshu and Feng, Jiashi and Zhou, Joey Tianyi and Zhen, Liangli and Goh, Rick Siow Mong and Tan, Vincent YF},
+  booktitle={ICLR},
+  abbr={ICLR-2022},
+  year={2022},
+  pdf={ICLR2022_efficient_sharpness_aware_mini.pdf},
+  code={https://github.com/dydjw9/efficient_sam},
+  preview={ICLR22_ESAM.png},
+  abstract={Overparametrized Deep Neural Networks (DNNs) often achieve astounding performances, but may potentially result in severe generalization error. Recently, the relation between the sharpness of the loss landscape and the generalization error has been established by Foret et al. (2020), in which the Sharpness Aware Minimizer (SAM) was proposed to mitigate the degradation of the generalization. Unfortunately, SAM’s computational cost is roughly double that of base optimizers, such as Stochastic Gradient Descent (SGD). This paper thus proposes Efficient Sharpness Aware Minimizer (ESAM), which boosts SAM’s efficiency at no cost to its generalization performance. ESAM includes two novel and efficient training strategies—StochasticWeight Perturbation and Sharpness-Sensitive Data Selection. In the former, the sharpness measure is approximated by perturbing a stochastically chosen set of weights in each iteration; in the latter, the SAM loss is optimized using only a judiciously selected subset of data that is sensitive to the sharpness. We provide theoretical explanations as to why these strategies perform well. We also show, via extensive experiments on the CIFAR and ImageNet datasets, that ESAM enhances the efficiency over SAM from requiring 100% extra computations to 40% vis-`a-vis base optimizers, while test accuracies are preserved or even improved.}
+}
+
+@article{feng2022deep,
+  title={Deep supervised domain adaptation for pneumonia diagnosis from chest X-ray images},
+  author={Feng, Yangqin and Xu, Xinxing and Wang, Yan and Lei, Xiaofeng and Teo, Soo Kng and Ting, Jordan Sim Zheng and Ting, Yonghan and Zhen, Liangli and Zhou, Joey Tianyi and Liu, Yong and others},
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  abbr={IEEE JBHI},
+  volume={26},
+  number={3},
+  pages={1080--1090},
+  year={2022},
+  pdf={JBHI2021-Deep_Supervised_Domain_Adaptation_for_Pneumonia_Diagnosis_From_Chest_X-Ray_Images.pdf},
+  publisher={IEEE},
+  preview={JBHI22_DSDA.png},
+  abstract={Pneumonia is one of the most common treatable causes of death, and early diagnosis allows for early intervention. Automated diagnosis of pneumonia can therefore improve outcomes. However, it is challenging to develop high-performance deep learning models due to the lack of well-annotated data for training. This paper proposes a novel method, called Deep Supervised Domain Adaptation (DSDA), to automatically diagnose pneumonia from chest X-ray images. Specifically, we propose to transfer the knowledge from a publicly available large-scale source dataset (ChestX-ray14) to a well-annotated but small-scale target dataset (the TTSH dataset). DSDA aligns the distributions of the source domain and the target domain according to the underlying semantics of the training samples. It includes two task-specific sub-networks for the source domain and the target domain, respectively. These two sub-networks share the feature extraction layers and are trained in an end-to-end manner. Unlike most existing domain adaptation approaches that perform the same tasks in the source domain and the target domain, we attempt to transfer the knowledge from a multi-label classification task in the source domain to a binary classification task in the target domain. To evaluate the effectiveness of our method, we compare it with several existing peer methods. The experimental results show that our method can achieve promising performance for automated pneumonia diagnosis.}
+}
+
+@article{hu2021joint,
+  title={Joint versus independent multi-view hashing for cross-view retrieval},
+  author={Hu, Peng and Peng, Xi and Zhu, Hongyuan and Lin, Jie and Zhen, Liangli and Peng, Dezhong},
+  journal={IEEE Transactions on Cybernetics},
+  abbr={IEEE TCYB},
+  volume={51},
+  number={10},
+  pages={4982--4993},
+  year={2021},
+  preview={tcyb21_joint.png},
+  abstract={Thanks to the low storage cost and high query speed, cross-view hashing (CVH) has been successfully used for similarity search in multimedia retrieval. However, most existing CVH methods use all views to learn a common Hamming space, thus making it difficult to handle the data with increasing views or a large number of views. To overcome these difficulties, we propose a decoupled CVH network (DCHN) approach which consists of a semantic hashing autoencoder module (SHAM) and multiple multiview hashing networks (MHNs). To be specific, SHAM adopts a hashing encoder and decoder to learn a discriminative Hamming space using either a few labels or the number of classes, that is, the so-called flexible inputs. After that, MHN independently projects all samples into the discriminative Hamming space that is treated as an alternative ground truth. In brief, the Hamming space is learned from the semantic space induced from the flexible inputs, which is further used to guide view-specific hashing in an independent fashion. Thanks to such an independent/decoupled paradigm, our method could enjoy high computational efficiency and the capacity of handling the increasing number of views by only using a few labels or the number of classes. For a newly coming view, we only need to add a view-specific network into our model and avoid retraining the entire model using the new and previous views. Extensive experiments are carried out on five widely used multiview databases compared with 15 state-of-the-art approaches. The results show that the proposed independent hashing paradigm is superior to the common joint ones while enjoying high efficiency and the capacity of handling newly coming views.},
+  pdf={TCYB2020_Joint Versus Independent Multiview Hashing for Cross-View Retrieval.pdf}
+}
 
 @article{wang2021evolutionary,
   title={Evolutionary multi-objective model compression for deep neural networks},
@@ -279,29 +248,18 @@ pdf={GIRG.pdf},
   preview={CIM21_EMOMC.png}
 }
 
-@inproceedings{hu2021learning,
-  title={Learning cross-modal retrieval with noisy labels},
-  author={Hu, Peng and Peng, Xi and Zhu, Hongyuan and Zhen, Liangli and Lin, Jie},
-  booktitle={CVPR},
-  abbr={CVPR-2021},
-  pages={5403--5413},
+@article{zhang2021distributed,
+  title={Distributed monitoring for energy infrastructures: A two-tier analysis over wireless networks},
+  author={Zhang, Chi and Zhen, Liangli and Zhou, Joey Tianyi and Chen, Cen},
+  journal={IEEE Wireless Communication},
+  abbr={IEEE WCM},
+  volume={28},
+  number={6},
+  pages={13--18},
   year={2021},
-  preview={CVPR21_Learning.png},
-  pdf={https://openaccess.thecvf.com/content/CVPR2021/papers/Hu_Learning_Cross-Modal_Retrieval_With_Noisy_Labels_CVPR_2021_paper.pdf},
-  abstract={Recently, cross-modal retrieval is emerging with the help of deep multimodal learning. However, even for unimodal data, collecting large-scale well-annotated data is expensive and time-consuming, and not to mention the additional challenges from multiple modalities. Although crowd-sourcing annotation, e.g., Amazon’s Mechanical Turk, can be utilized to mitigate the labeling cost, but leading to the unavoidable noise in labels for the non-expert annotating. To tackle the challenge, this paper presents a general Multi-modal Robust Learning framework (MRL) for learning with multimodal noisy labels to mitigate noisy samples and correlate distinct modalities simultaneously. To be specific, we propose a Robust Clustering loss (RC) to make the deep networks focus on clean samples instead of noisy ones. Besides, a simple yet effective multimodal loss function, called Multimodal Contrastive loss (MC), is proposed to maxi-mize the mutual information between different modalities, thus alleviating the interference of noisy samples and cross-modal discrepancy. Extensive experiments are conducted on four widely-used multimodal datasets to demonstrate the effectiveness of the proposed approach by comparing to 14 state-of-the-art methods.},
-  pdf={CVPR2021_Learning_Cross-Modal_Retrieval_With_Noisy_Labels_CVPR_2021_paper.pdf}
-}
-
-@inproceedings{zhang2021video,
-  title={Video corpus moment retrieval with contrastive learning},
-  author={Zhang, Hao and Sun, Aixin and Jing, Wei and Nan, Guoshun and Zhen, Liangli and Zhou, Joey Tianyi and Goh, Rick Siow Mong},
-  booktitle={SIGIR},
-  abbr={SIGIR-2021},
-  year={2021},
-  abstract={Given a collection of untrimmed and unsegmented videos, video corpus moment retrieval (VCMR) is to retrieve a temporal moment (i.e., a fraction of a video) that semantically corresponds to a given text query. As video and text are from two distinct feature spaces, there are two general approaches to address VCMR: (i) to separately encode each modality representations, then align the two modality representations for query processing, and (ii) to adopt fine-grained cross-modal interaction to learn multi-modal representations for query processing. While the second approach often leads to better retrieval accuracy, the first approach is far more efficient. In this paper, we propose a Retrieval and Localization Network with Contrastive Learning (ReLoCLNet) for VCMR. We adopt the first approach and introduce two contrastive learning objectives to refine video encoder and text encoder to learn video and text representations separately but with better alignment for VCMR. The video contrastive learning (VideoCL) is to maximize mutual information between query and candidate video at video-level. The frame contrastive learning (FrameCL) aims to highlight the moment region corresponds to the query at frame-level, within a video. Experimental results show that, although ReLoCLNet encodes text and video separately for efficiency, its retrieval accuracy is comparable with baselines adopting cross-modal interaction learning.},
-  pdf={SIGIR2021_Video_corpus_moment_retrieval.pdf},
-  code={https://github.com/IsaacChanghau/ReLoCLNet},
-  preview={SIGIR2021_Video.png}
+  preview={wcm21_dist.png},
+  abstract={Wireless networks (e.g., 5G networks) enable distributed energy infrastructures to be connected even when they are geometrically isolated. Intelligent monitoring from remote sites therefore becomes possible, allowing decision makers to examine the status of distributed energy infrastructures from a central location. The major challenge is when local devices cannot perform the monitoring independently; transmitting every signal back to the central server triggers enormous amounts of wireless communication. To address this, we propose a two-tier AI system by offloading computations to multiple devices. Specifically, we build lightweight AI models for deployment on edge clients (i.e., edge sensors) and a large-scale AI model for the central server. These two types of AI models are trained with different criteria: the models on the edges act as the filtering tools to detect abnormal events and maximally avoid making false negative predictions, whereas the server model is supposed to be an expert for accurate predictions. By validating on a power theft dataset, we show that such a cascading methodology could filter out sufficient negative examples on the edge side while still being able to provide precise predictions on the second-round analysis.},
+  pdf={WCM2021_Distributed_Monitoring_for_Energy_Infrastructures_A_Two-Tier_Analysis_over_Wireless_Networks.pdf}
 }
 
 @article{hu2021cross,
@@ -347,30 +305,29 @@ pdf={GIRG.pdf},
   code={https://github.com/wangxu-scu/DRSL}
 }
 
-@article{hu2021joint,
-  title={Joint versus independent multi-view hashing for cross-view retrieval},
-  author={Hu, Peng and Peng, Xi and Zhu, Hongyuan and Lin, Jie and Zhen, Liangli and Peng, Dezhong},
-  journal={IEEE Transactions on Cybernetics},
-  abbr={IEEE TCYB},
-  volume={51},
-  number={10},
-  pages={4982--4993},
+@inproceedings{hu2021learning,
+  title={Learning cross-modal retrieval with noisy labels},
+  author={Hu, Peng and Peng, Xi and Zhu, Hongyuan and Zhen, Liangli and Lin, Jie},
+  booktitle={CVPR},
+  abbr={CVPR-2021},
+  pages={5403--5413},
   year={2021},
-  preview={tcyb21_joint.png},
-  abstract={Thanks to the low storage cost and high query speed, cross-view hashing (CVH) has been successfully used for similarity search in multimedia retrieval. However, most existing CVH methods use all views to learn a common Hamming space, thus making it difficult to handle the data with increasing views or a large number of views. To overcome these difficulties, we propose a decoupled CVH network (DCHN) approach which consists of a semantic hashing autoencoder module (SHAM) and multiple multiview hashing networks (MHNs). To be specific, SHAM adopts a hashing encoder and decoder to learn a discriminative Hamming space using either a few labels or the number of classes, that is, the so-called flexible inputs. After that, MHN independently projects all samples into the discriminative Hamming space that is treated as an alternative ground truth. In brief, the Hamming space is learned from the semantic space induced from the flexible inputs, which is further used to guide view-specific hashing in an independent fashion. Thanks to such an independent/decoupled paradigm, our method could enjoy high computational efficiency and the capacity of handling the increasing number of views by only using a few labels or the number of classes. For a newly coming view, we only need to add a view-specific network into our model and avoid retraining the entire model using the new and previous views. Extensive experiments are carried out on five widely used multiview databases compared with 15 state-of-the-art approaches. The results show that the proposed independent hashing paradigm is superior to the common joint ones while enjoying high efficiency and the capacity of handling newly coming views.},
-  pdf={TCYB2020_Joint Versus Independent Multiview Hashing for Cross-View Retrieval.pdf}
+  preview={CVPR21_Learning.png},
+  pdf={https://openaccess.thecvf.com/content/CVPR2021/papers/Hu_Learning_Cross-Modal_Retrieval_With_Noisy_Labels_CVPR_2021_paper.pdf},
+  abstract={Recently, cross-modal retrieval is emerging with the help of deep multimodal learning. However, even for unimodal data, collecting large-scale well-annotated data is expensive and time-consuming, and not to mention the additional challenges from multiple modalities. Although crowd-sourcing annotation, e.g., Amazon’s Mechanical Turk, can be utilized to mitigate the labeling cost, but leading to the unavoidable noise in labels for the non-expert annotating. To tackle the challenge, this paper presents a general Multi-modal Robust Learning framework (MRL) for learning with multimodal noisy labels to mitigate noisy samples and correlate distinct modalities simultaneously. To be specific, we propose a Robust Clustering loss (RC) to make the deep networks focus on clean samples instead of noisy ones. Besides, a simple yet effective multimodal loss function, called Multimodal Contrastive loss (MC), is proposed to maxi-mize the mutual information between different modalities, thus alleviating the interference of noisy samples and cross-modal discrepancy. Extensive experiments are conducted on four widely-used multimodal datasets to demonstrate the effectiveness of the proposed approach by comparing to 14 state-of-the-art methods.},
+  pdf={CVPR2021_Learning_Cross-Modal_Retrieval_With_Noisy_Labels_CVPR_2021_paper.pdf}
 }
 
-
-@inproceedings{sotthiwat2021partially,
-  title={Partially encrypted multi-party computation for federated learning},
-  author={Sotthiwat, Ekanut and Zhen*, Liangli and Li, Zengxiang and Zhang*, Chi},
-  booktitle={CCGrid},
-  abbr={CCGrid-2021},
-  preview={ccgrid21_partially.png},
+@inproceedings{zhang2021video,
+  title={Video corpus moment retrieval with contrastive learning},
+  author={Zhang, Hao and Sun, Aixin and Jing, Wei and Nan, Guoshun and Zhen, Liangli and Zhou, Joey Tianyi and Goh, Rick Siow Mong},
+  booktitle={SIGIR},
+  abbr={SIGIR-2021},
   year={2021},
-  abstract={Multi-party computation (MPC) allows distributed machine learning to be performed in a privacy-preserving manner so that end-hosts are unaware of the true models on the clients. However, the standard MPC algorithm also triggers additional communication and computation costs, due to those expensive cryptography operations and protocols. In this paper, instead of applying heavy MPC over the entire local models for secure model aggregation, we propose to encrypt critical part of model (gradients) parameters to reduce communication cost, while maintaining MPC’s advantages on privacy-preserving without sacrificing accuracy of the learnt joint model. Theoretical analysis and experimental results are provided to verify that our proposed method could prevent deep leakage from gradients attacks from reconstructing original data of individual participants. Experiments using deep learning models over the MNIST and CIFAR-10 datasets empirically demonstrate that our proposed partially encrypted MPC method can reduce the communication and computation cost significantly when compared with conventional MPC, and it achieves as high accuracy as traditional distributed learning which aggregates local models using plain text.},
-  pdf={CCGrid2021-Partially_Encrypted_Multi-Party_Computation_for_Federated_Learning.pdf}
+  abstract={Given a collection of untrimmed and unsegmented videos, video corpus moment retrieval (VCMR) is to retrieve a temporal moment (i.e., a fraction of a video) that semantically corresponds to a given text query. As video and text are from two distinct feature spaces, there are two general approaches to address VCMR: (i) to separately encode each modality representations, then align the two modality representations for query processing, and (ii) to adopt fine-grained cross-modal interaction to learn multi-modal representations for query processing. While the second approach often leads to better retrieval accuracy, the first approach is far more efficient. In this paper, we propose a Retrieval and Localization Network with Contrastive Learning (ReLoCLNet) for VCMR. We adopt the first approach and introduce two contrastive learning objectives to refine video encoder and text encoder to learn video and text representations separately but with better alignment for VCMR. The video contrastive learning (VideoCL) is to maximize mutual information between query and candidate video at video-level. The frame contrastive learning (FrameCL) aims to highlight the moment region corresponds to the query at frame-level, within a video. Experimental results show that, although ReLoCLNet encodes text and video separately for efficiency, its retrieval accuracy is comparable with baselines adopting cross-modal interaction learning.},
+  pdf={SIGIR2021_Video_corpus_moment_retrieval.pdf},
+  code={https://github.com/IsaacChanghau/ReLoCLNet},
+  preview={SIGIR2021_Video.png}
 }
 
 @inproceedings{zhang2021parallel,
@@ -385,7 +342,6 @@ pdf={GIRG.pdf},
   year={2021}
 }
 
-
 @article{liu2021automated,
   title={Automated deepfake detection},
   author={Liu, Ping and Lin, Yuewei and He, Yang and Wei, Yunchao and Zhen, Liangli and Zhou, Joey Tianyi and Goh, Rick Siow Mong and Liu, Jingen},
@@ -397,19 +353,6 @@ pdf={GIRG.pdf},
   pdf={arxiv2021_AFD.pdf}
 }
 
-@article{zhang2021distributed,
-  title={Distributed monitoring for energy infrastructures: A two-tier analysis over wireless networks},
-  author={Zhang, Chi and Zhen, Liangli and Zhou, Joey Tianyi and Chen, Cen},
-  journal={IEEE Wireless Communication},
-  abbr={IEEE WCM},
-  volume={28},
-  number={6},
-  pages={13--18},
-  year={2021},
-  preview={wcm21_dist.png},
-  abstract={Wireless networks (e.g., 5G networks) enable distributed energy infrastructures to be connected even when they are geometrically isolated. Intelligent monitoring from remote sites therefore becomes possible, allowing decision makers to examine the status of distributed energy infrastructures from a central location. The major challenge is when local devices cannot perform the monitoring independently; transmitting every signal back to the central server triggers enormous amounts of wireless communication. To address this, we propose a two-tier AI system by offloading computations to multiple devices. Specifically, we build lightweight AI models for deployment on edge clients (i.e., edge sensors) and a large-scale AI model for the central server. These two types of AI models are trained with different criteria: the models on the edges act as the filtering tools to detect abnormal events and maximally avoid making false negative predictions, whereas the server model is supposed to be an expert for accurate predictions. By validating on a power theft dataset, we show that such a cascading methodology could filter out sufficient negative examples on the edge side while still being able to provide precise predictions on the second-round analysis.},
-  pdf={WCM2021_Distributed_Monitoring_for_Energy_Infrastructures_A_Two-Tier_Analysis_over_Wireless_Networks.pdf}
-}
 
 @article{zhen2020kernel,
   title={Kernel truncated regression representation for robust subspace clustering},
@@ -440,19 +383,6 @@ pdf={GIRG.pdf},
   code={https://liangli-zhen.github.io/assets/code/ORV_MATLAB.zip}
 }
 
-@article{zhen2020underdetermined,
-  title={Underdetermined mixing matrix estimation by exploiting sparsity of sources},
-  author={Zhen, Liangli and Peng, Dezhong and Zhang, Haixian and Sang, Yongsheng and Zhang, Lijun},
-  journal={Measurement},
-  abbr={Measurement},
-  volume={152},
-  pages={107268},
-  year={2020},
-  publisher={Elsevier},
-  preview={measurement20_under.png},
-  abstract={To estimate the mixing matrix in underdetermined mixing systems, we propose a novel method by exploiting the sparsity of sources. We utilize the pairwise relationships among all of the mixture representations to detect the single source points in the time-frequency (TF) domain, i.e., the positions where only one source contributed dominantly. The mixture representations at these single source points are then clustered to estimate the underlying mixing matrix. Since the pairwise relationships among all mixtures are considered in the TF domain, the proposed method can achieve an accurate mixing matrix estimation and be robust in noisy cases. Experimental results indicate that our method is effective in mixing matrix estimation and outperforms five peer methods.},
-  pdf={Measurement2020_Underdetermined_mixing_matrix_estimation_by_exploiting_sparsity_of_sources.pdf}
-}
 
 @article{hu2020adaptive,
   title={An adaptive stochastic parallel gradient descent approach for efficient fiber coupling},
@@ -503,7 +433,6 @@ pdf={GIRG.pdf},
   preview={mm19_sep.png},
   abstract={Cross-modal hashing, due to its low storage cost and high query speed, has been successfully used for similarity search in multimedia retrieval applications. It projects high-dimensional data into a shared isomorphic Hamming space with similar binary codes for semantically-similar data. In some applications, all modalities may not be obtained or trained simultaneously for some reasons, such as privacy, secret, storage limitation, and computational resource limitation. However, most existing cross-modal hashing methods need all modalities to jointly learn the common Hamming space, thus hindering them from handling these problems. In this paper, we propose a novel approach called Separated Variational Hashing Networks (SVHNs) to overcome the above challenge. Firstly, it adopts a label network (LabNet) to exploit available and nonspecific label annotations to learn a latent common Hamming space by projecting each semantic label into a common binary representation. Then, each modality-specific network can separately map the samples of the corresponding modality into their binary semantic codes learned by LabNet. We achieve it by conducting variational inference to match the aggregated posterior of the hashing code of LabNet with an arbitrary prior distribution. The effectiveness and efficiency of our SVHNs are verified by extensive experiments carried out on four widely-used multimedia databases, in comparison with 11 state-of-the-art approaches.},
 }
-
 
 @article{hu2018local,
   title={Local feature based multi-view discriminant analysis},
@@ -570,49 +499,4 @@ pdf={GIRG.pdf},
   preview={SEAL17_adapt.png},
   code={https://liangli-zhen.github.io/assets/code/APC-code.zip},
   abstract={Visualizing a high-dimensional solution set over the evolution process is a viable way to investigate the search behavior of evolutionary multi-objective optimization. The parallel coordinates plot which scales well to the data dimensionality is frequently used to observe solution sets in multi-objective optimization. However, the solution sets in parallel coordinates are typically presented by the natural order of the optimized objectives, with rare information of the relation between these objectives and also the Pareto dominance relation between solutions. In this paper, we attempt to adjust parallel coordinates to incorporate this information. Systematic experiments have shown the effectiveness of the proposed method.},
-}
-
-@article{chen2017underdetermined,
-  title={Underdetermined blind separation by combining sparsity and independence of sources},
-  author={Chen, Peng and Peng, Dezhong and Zhen, Liangli and Luo, Yifan and Xiang, Yong},
-  journal={IEEE Access},
-  volume={5},
-  pages={21731--21742},
-  year={2017},
-  abbr={IEEE Access},
-  publisher={IEEE},
-  preview={Access17_under.png},
-  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8081738},
-  abstract={In this paper, we address underdetermined blind separation of N sources from their M instantaneous mixtures, where N > M, by combining the sparsity and independence of sources. First, we propose an effective scheme to search some sample segments with the local sparsity, which means that in these sample segments, only Q(Q <; M) sources are active. By grouping these sample segments into different sets such that each set has the same Q active sources, the original underdetermined BSS problem can be transformed into a series of locally overdetermined BSS problems. Thus, the blind channel identification task can be achieved by solving these overdetermined problems in each set by exploiting the independence of sources. In the second stage, we will achieve source recovery by exploiting a mild sparsity constraint, which is proven to be a sufficient and necessary condition to guarantee recovery of source signals. Compared with some sparsity-based UBSS approaches, this paper relaxes the sparsity restriction about sources to some extent by assuming that different source signals are mutually independent. At the same time, the proposed UBSS approach does not impose any richness constraint on sources. Theoretical analysis and simulation results illustrate the effectiveness of our approach},
-}
-
-@article{zhen2014locally,
-  title={Locally linear representation for image clustering},
-  author={Zhen, Liangli and Yi, Zhang and Peng, Xi and Peng, Dezhong},
-  journal={Electronics Letters},
-  volume={50},
-  number={13},
-  pages={942--943},
-  year={2014},
-  abbr={Electronics Letters},
-  publisher={IET},
-  preview={el14_locally.png},
-  pdf={EL2014_Locally_linear_representation_for_image_clustering.pdf},
-  abstract={The construction of the similarity graph plays an essential role in a spectral clustering (SC) algorithm. There exist two popular schemes to construct a similarity graph, i.e. the pairwise distance-based scheme (PDS) and the linear representation-based scheme (LRS). It is notable that the above schemes suffered from some limitations and drawbacks, respectively. Specifically, the PDS is sensitive to noises and outliers, while the LRS may incorrectly select inter-subspaces points to represent the objective point. These drawbacks degrade the performance of the SC algorithms greatly. To overcome these problems, a novel scheme to construct the similarity graph is proposed, where the similarity computation among different data points depends on both their pairwise distances and the linear representation relationships. This proposed scheme, called locally linear representation (LLR), encodes each data point using a collection of data points that not only produce the minimal reconstruction error but also are close to the objective point, which makes it robust to noises and outliers, and avoids selecting inter-subspaces points to represent the objective point to a large extent.},
-}
-
-
-@article{zhen2013local,
-  title={Local neighborhood embedding for unsupervised nonlinear dimension reduction},
-  author={Zhen, Liangli and Peng, Xi and Peng, Dezhong},
-  journal={Journal of Software},
-  abbr={J Softw},
-  volume={8},
-  number={2},
-  pages={410--417},
-  year={2013},
-  publisher={Academy Publisher},
-  preview={jsw13_local.png},
-  pdf={JSW2013_Local_neighborhood_embedding_for_unsupervised_nonlinear_dimension_reduction.pdf},
-  abstract={The construction of similarity relationship among data points plays a critical role in manifold learning. There exist two popular schemes, i.e., pairwise-distance based similarity and reconstruction coefficient based similarity. Existing works only have involved one scheme of them. These two schemes have different drawbacks. For pairwisedistance based similarity graph algorithms, they are sensitive to the noise and outliers. For reconstruction coefficient based similarity graph algorithms, they need sufficient sampled data and the neighborhood size is sensitive. This paper proposes a novel algorithm, called Local Neighborhood Embedding (LNE), which preserves pairwise-distance based similarity and reconstruction coefficient based similarity for finding the latent low dimensional structure of data. It has following three advantages: Firstly,it is insensitive to the choice of neighborhood size; Secondly, it is robust to the noise; Thirdly, It works well even in under-sampled case. Furthermore, the proposed objective function has a closedform solution, which means it has a low computational complexity, and the experimental results illustrate that LNE has a competitive performance in dimensionality reduction.},
 }
