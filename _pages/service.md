@@ -19,4 +19,4 @@ Senior Member of the IEEE
 	
 Member of the <a href="http://www.cs.bham.ac.uk/~limx/MaOP.html">IEEE Computational Intelligence Society Task Force on Many-Objective Optimisation</a>
 
-Member of the Executive Area Chair Committee (EACC) for <a href="http://valser.org/article-364-1.html">Vision And Learning SEminar (VALSE)</a>
+Ex-Member of the Executive Area Chair Committee (EACC) for <a href="http://valser.org/article-364-1.html">Vision And Learning SEminar (VALSE)</a>
