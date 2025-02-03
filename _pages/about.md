@@ -30,12 +30,10 @@ social: false  # includes social icons at the bottom of the page
   <li>[Aug 2024] Our project on Cyber Sentinel: A Unified Framework for Safeguarding Foundation Models has been awarded the <a href="https://www.ntu.edu.sg/crpo/crpo-verticals/grant-management/grand-challenge">CyberSG Research and Development Programme Office (CRPO) Grand Challenge</a> Funding.</li>
   <li>[Aug 2024] Our paper on Continuous Disentangled Joint Space Learning for Domain Generalization has been accepted for publication by the IEEE Transactions on Neural Networks and Learning Systems.</li>
   <li>[May 2024] Our team won the 1st Prize in the <a href="https://repss-w.github.io/">IJCAI Vision-based Remote Physiological Signal Sensing Challenge</a>.</li>
-  <li>[Apr 2024] Our paper on Neural Architecture Search with Progressive Evaluation and Sub-Population Preservation has been accepted for publication by the IEEE Transactions on Evolutionary Computation.</li>
   <li>[Mar 2024] Our paper on Generative Image Reconstruction from Gradients has been accepted by the IEEE Transactions on Neural Networks and Learning Systems.</li>
   <li>[Jan 2024] Our paper on Geometric Correspondence-Based Multimodal Learning for Ophthalmic Image Analysis has been accepted for publication by the IEEE Transactions on Medical Imaging.</li>
   <li>[Jan 2024] Our paper on MedNAS: Multi-scale Training-free Neural Architecture Search for Medical Image Analysis has been accepted for publication by the IEEE Transactions on Evolutionary Computation.</li>
   <li>[Nov 2023] Our paper on Deep Supervised Multi-View Learning with Graph Priors has been accepted for publication by the IEEE Transactions on Image Processing.</li>
-  <li>[Nov 2023] Our paper on Evolutionary Architecture Search for Generative Adversarial Networks Based on Weight Sharing has been accepted for publication by the IEEE Transactions on Evolutionary Computation.</li>
   <li>[Jul 2023] Our project on <a href="https://aisingapore.org/development-of-stable-robust-and-secure-intelligent-systems-for-autonomous-vehicles">Development of Stable, Robust and Secure Intelligent Systems for Autonomous Vehicles</a> has been awarded the AI Singapore <a href="https://connect.aisingapore.org/2023/07/s20m-research-funding-to-address-challenges-related-to-the-increasing-use-of-ai-in-emerging-applications/">Robust AI Grand Challenge</a> Funding.</li>
 </ul>
 
