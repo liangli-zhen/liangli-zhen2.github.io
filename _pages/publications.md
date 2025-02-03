@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: The asterisk symbol (*) denotes the corresponding author. <a href='https://scholar.google.com/citations?user=dtv_LZkAAAAJ&hl=en' target='_blank'><strong>Google Scholar Profile</strong></a>
-years: [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2014, 2013]
+title: selected publications
+description: The asterisk symbol (*) denotes the corresponding author. The complete list of publications is available on my <a href='https://scholar.google.com/citations?user=dtv_LZkAAAAJ&hl=en' target='_blank'><strong>Google Scholar Profile</strong></a>
+years: [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017]
 nav: true
 nav_order: 3
 ---
