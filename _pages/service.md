@@ -15,7 +15,7 @@ Student supervisor
 <li>Chen Tianying, Tiana, A*STAR Graduate Scholarship (AGS) Award PhD student at the National University of Singapore. (Co-supervisor: <a href="https://www.comp.nus.edu.sg/~wongls/">Prof Limsoon Wong</a>)</li>	
 </ul>
 
-Senior Member of IEEE
+Senior Member of the IEEE
 	
 Member of the <a href="http://www.cs.bham.ac.uk/~limx/MaOP.html">IEEE Computational Intelligence Society Task Force on Many-Objective Optimisation</a>
 
