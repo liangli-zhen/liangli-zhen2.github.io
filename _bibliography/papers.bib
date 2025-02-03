@@ -177,6 +177,21 @@ pdf={GIRG.pdf},
   abstract={Multi-Party Computation (MPC) provides an effective cryptographic solution for distributed computing systems so that local models with sensitive information are encrypted before sending to the centralized servers for aggregation. Though direct local knowledge leakages are eliminated in MPC-based algorithms, we observe the server can still obtain the local information indirectly in many scenarios, or even reveal the groundtruth images through methods like Deep Leakage from Gradients (DLG). To eliminate such possibilities and provide stronger protections, we propose an augmented MPC approach by encrypting local models with two rounds of decomposition before transmitting to the server. The proposed solution allows us to remove the constraint that servers must be honest in the general federated learning settings since the true global model is hidden from the servers. Specifically,  the augmented MPC algorithm encodes local models into multiple secret shares in the first round, then each share is furthermore split into a public share and a private share. The consequences of such a two-round decomposition are that the augmented algorithm fully inherits the advantages of standard MPC by providing lossless encryption and decryption while simultaneously rendering the global model invisible to the central server. Both theoretical analysis and experimental verification demonstrate that such an augmented solution can provide stronger protections for the security and privacy of the training data, with minimal extra communication and computation costs incurred.}
 }
 
+@article{feng2022deep,
+  title={Deep supervised domain adaptation for pneumonia diagnosis from chest X-ray images},
+  author={Feng, Yangqin and Xu, Xinxing and Wang, Yan and Lei, Xiaofeng and Teo, Soo Kng and Ting, Jordan Sim Zheng and Ting, Yonghan and Zhen, Liangli and Zhou, Joey Tianyi and Liu, Yong and others},
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  abbr={IEEE JBHI},
+  volume={26},
+  number={3},
+  pages={1080--1090},
+  year={2022},
+  pdf={JBHI2021-Deep_Supervised_Domain_Adaptation_for_Pneumonia_Diagnosis_From_Chest_X-Ray_Images.pdf},
+  publisher={IEEE},
+  preview={JBHI22_DSDA.png},
+  abstract={Pneumonia is one of the most common treatable causes of death, and early diagnosis allows for early intervention. Automated diagnosis of pneumonia can therefore improve outcomes. However, it is challenging to develop high-performance deep learning models due to the lack of well-annotated data for training. This paper proposes a novel method, called Deep Supervised Domain Adaptation (DSDA), to automatically diagnose pneumonia from chest X-ray images. Specifically, we propose to transfer the knowledge from a publicly available large-scale source dataset (ChestX-ray14) to a well-annotated but small-scale target dataset (the TTSH dataset). DSDA aligns the distributions of the source domain and the target domain according to the underlying semantics of the training samples. It includes two task-specific sub-networks for the source domain and the target domain, respectively. These two sub-networks share the feature extraction layers and are trained in an end-to-end manner. Unlike most existing domain adaptation approaches that perform the same tasks in the source domain and the target domain, we attempt to transfer the knowledge from a multi-label classification task in the source domain to a binary classification task in the target domain. To evaluate the effectiveness of our method, we compare it with several existing peer methods. The experimental results show that our method can achieve promising performance for automated pneumonia diagnosis.}
+}
+
 @article{wang2022adversarial,
   title={Adversarial multimodal fusion with attention mechanism for skin lesion classification using clinical and dermoscopic images},
   author={Wang, Yan and Feng, Yangqin and Zhang, Lei and Zhou, Joey Tianyi and Liu, Yong and Goh, Rick Siow Mong and Zhen*, Liangli},
@@ -203,20 +218,6 @@ pdf={GIRG.pdf},
   abstract={Overparametrized Deep Neural Networks (DNNs) often achieve astounding performances, but may potentially result in severe generalization error. Recently, the relation between the sharpness of the loss landscape and the generalization error has been established by Foret et al. (2020), in which the Sharpness Aware Minimizer (SAM) was proposed to mitigate the degradation of the generalization. Unfortunately, SAM’s computational cost is roughly double that of base optimizers, such as Stochastic Gradient Descent (SGD). This paper thus proposes Efficient Sharpness Aware Minimizer (ESAM), which boosts SAM’s efficiency at no cost to its generalization performance. ESAM includes two novel and efficient training strategies—StochasticWeight Perturbation and Sharpness-Sensitive Data Selection. In the former, the sharpness measure is approximated by perturbing a stochastically chosen set of weights in each iteration; in the latter, the SAM loss is optimized using only a judiciously selected subset of data that is sensitive to the sharpness. We provide theoretical explanations as to why these strategies perform well. We also show, via extensive experiments on the CIFAR and ImageNet datasets, that ESAM enhances the efficiency over SAM from requiring 100% extra computations to 40% vis-`a-vis base optimizers, while test accuracies are preserved or even improved.}
 }
 
-@article{feng2022deep,
-  title={Deep supervised domain adaptation for pneumonia diagnosis from chest X-ray images},
-  author={Feng, Yangqin and Xu, Xinxing and Wang, Yan and Lei, Xiaofeng and Teo, Soo Kng and Ting, Jordan Sim Zheng and Ting, Yonghan and Zhen, Liangli and Zhou, Joey Tianyi and Liu, Yong and others},
-  journal={IEEE Journal of Biomedical and Health Informatics},
-  abbr={IEEE JBHI},
-  volume={26},
-  number={3},
-  pages={1080--1090},
-  year={2022},
-  pdf={JBHI2021-Deep_Supervised_Domain_Adaptation_for_Pneumonia_Diagnosis_From_Chest_X-Ray_Images.pdf},
-  publisher={IEEE},
-  preview={JBHI22_DSDA.png},
-  abstract={Pneumonia is one of the most common treatable causes of death, and early diagnosis allows for early intervention. Automated diagnosis of pneumonia can therefore improve outcomes. However, it is challenging to develop high-performance deep learning models due to the lack of well-annotated data for training. This paper proposes a novel method, called Deep Supervised Domain Adaptation (DSDA), to automatically diagnose pneumonia from chest X-ray images. Specifically, we propose to transfer the knowledge from a publicly available large-scale source dataset (ChestX-ray14) to a well-annotated but small-scale target dataset (the TTSH dataset). DSDA aligns the distributions of the source domain and the target domain according to the underlying semantics of the training samples. It includes two task-specific sub-networks for the source domain and the target domain, respectively. These two sub-networks share the feature extraction layers and are trained in an end-to-end manner. Unlike most existing domain adaptation approaches that perform the same tasks in the source domain and the target domain, we attempt to transfer the knowledge from a multi-label classification task in the source domain to a binary classification task in the target domain. To evaluate the effectiveness of our method, we compare it with several existing peer methods. The experimental results show that our method can achieve promising performance for automated pneumonia diagnosis.}
-}
 
 @article{hu2021joint,
   title={Joint versus independent multi-view hashing for cross-view retrieval},
