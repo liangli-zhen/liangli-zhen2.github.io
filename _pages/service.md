@@ -9,6 +9,12 @@ display_categories: [service]
 horizontal: false
 ---
 
+Research group manager
+<ul>
+<li>Research scientists: Dr Shaohua Li (Senior Scientist), Dr Xiaobing Sun (Senior Scientist), Dr Yan Wang, Dr Zizhou Wang, Dr Bingjie Wu, and Dr Yuhuan Wu</li> 
+<li>Research engineers: Xiaoman Zhang and Menghan Zhou</li> 
+</ul>
+
 Student supervisor
 <ul>
 <li>Sotthiwat Ekanut, <a href="https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa">Singapore International Graduate Award (SINGA)</a> PhD student at the National University of Singapore. (Co-supervisor: <a href="https://www.comp.nus.edu.sg/~xiaoxk/">Prof Xiaokui Xiao</a>)</li> 
