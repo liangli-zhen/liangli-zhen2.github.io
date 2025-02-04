@@ -41,6 +41,7 @@ Our work in machine learning includes safe & robust learning, multimodal learnin
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/DMLPA.pdf">TIP24</a>] A multi-view learning method with graph priors</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/TPAMI2022_Natural_Language_Video_Localization_A_Revisit_in_Span-Based_Question_Answering_Framework.pdf">TPAMI22</a>] An efficient learning method for natural language video localisation</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/TNNLS2022_DMTL_CMR.pdf">TNNLS22</a>] A multimodal transfer learning method</li>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/MedIA2022_AMFAM.pdf">MedIA22</a>] An adversarial multimodal learning method for automated skin lesion classification</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/TCYB2020_Joint%20Versus%20Independent%20Multiview%20Hashing%20for%20Cross-View%20Retrieval.pdf">TCYB21</a>] An efficient hashing method for cross-view retrieval</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/SIGIR2021_Video_corpus_moment_retrieval.pdf">SIGIR21</a>] An efficient method for video corpus moment retrieval</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/CVPR2019_Deep_Supervised_Cross_modal_Retrieval.pdf">CVPR19</a>] A deep supervised cross-modal retrieval method</li>
