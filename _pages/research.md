@@ -26,11 +26,11 @@ Our work in machine learning includes safe & robust learning, multimodal learnin
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/aisg_safe_secure_llms.pdf">arXiv24</a>]Technical report on the Global challenge for safe and secure LLMs track 1</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/ICCV2023_GGI.pdf">ICCV23</a>] A gradient inversion attack method in federated learning</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/MedIA2022_CDACM.pdf">MedIA23</a>] A domain adaptation method for medical image analysis</li>
-<li>[<a href="https://liangli-zhen.github.io/assets/pdf/MedIA2022_AMFAM.pdf">MedIA22</a>] An adversarial multimodal learning method for automated skin lesion classification</li>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/MedIA2022_AMFAM.pdf">MedIA22</a>] An adversarial learning method for automated skin lesion classification</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/JBHI2021-Deep_Supervised_Domain_Adaptation_for_Pneumonia_Diagnosis_From_Chest_X-Ray_Images.pdf">JBHI22</a>] A domain adaptation method for chest X-ray screening</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/ICLR2022_efficient_sharpness_aware_mini.pdf">ICLR22</a>] A robust optimisation method for deep neural networks</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/TBD22_AMPC.pdf">TBD22</a>] A secure multi-party learning method for federated learning</li>
-<li>[<a href="https://liangli-zhen.github.io/assets/pdf/arxiv2021_AFD.pdf">arXiv2121</a>] Automated deepfake detection</li>
+<li>[<a href="https://liangli-zhen.github.io/assets/pdf/arxiv2021_AFD.pdf">arXiv21</a>] Automated deepfake detection</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/CVPR2021_Learning_Cross-Modal_Retrieval_With_Noisy_Labels_CVPR_2021_paper.pdf">CVPR21</a>] A robust learning method for handling noisy labels</li>
 <li>[<a href="https://liangli-zhen.github.io/assets/pdf/INS2020_Kernel%20Truncated%20Regression%20Representation%20for%20Robust%20Subspace%20Clustering.pdf">INS20</a>] A robust subspace clustering method</li>
 </ul>
