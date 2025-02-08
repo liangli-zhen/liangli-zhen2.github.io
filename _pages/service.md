@@ -11,14 +11,14 @@ horizontal: false
 
 Research group leader (I lead a vibrant AI safety research group comprising motivated scientists and engineers)
 <ul>
-<li>Dr Shaohua Li (senior scientist)</li>
-<li>Dr Xiaobing Sun (senior scientist)</li>
-<li>Dr Yan Wang (research scientist)</li>
-<li>Dr Zizhou Wang (research scientist)</li>
-<li>Dr Bingjie Wu (research scientist)</li>
-<li>Dr Yuhuan Wu (research scientist)</li>
-<li>Xiaoman Zhang (research engineer)</li>
-<li>Menghan Zhou (research engineer)</li>
+<li>Dr Shaohua Li (Senior Scientist)</li>
+<li>Dr Xiaobing Sun (Senior Scientist)</li>
+<li>Dr Yan Wang (Research Scientist)</li>
+<li>Dr Zizhou Wang (Research Scientist)</li>
+<li>Dr Bingjie Wu (Research Scientist)</li>
+<li>Dr Yuhuan Wu (Research Scientist)</li>
+<li>Xiaoman Zhang (Research Engineer)</li>
+<li>Menghan Zhou (Research Engineer)</li>
 </ul>
 
 Student supervisor
