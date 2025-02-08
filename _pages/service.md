@@ -9,6 +9,8 @@ display_categories: [service]
 horizontal: false
 ---
 
+Senior Member of the IEEE
+
 Research group leader (I lead a vibrant AI safety research group comprising motivated scientists and engineers)
 <ul>
 <li>Dr Shaohua Li (Senior Scientist)</li>
@@ -31,7 +33,6 @@ Student supervisor
 <li>Zehui Liao (visiting PhD student from Northwestern Polytechnical University)</li>
 </ul>
 
-Senior Member of the IEEE
 	
 Member of the <a href="http://www.cs.bham.ac.uk/~limx/MaOP.html">IEEE Computational Intelligence Society Task Force on Many-Objective Optimisation</a>
 
