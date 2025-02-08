@@ -2,7 +2,7 @@
 layout: page
 title: services
 permalink: /services/
-description: I am involved in the following professional activities
+description: I am involved in the following professional activities and leadership
 nav: true
 nav_order: 5
 display_categories: [service]
