@@ -8,7 +8,7 @@ nav_order: 4
 ---
 <li>
 <b>Cyber Sentinel: A Unified Framework for Safeguarding Foundation Models</b><br>
-<a href="https://www.ntu.edu.sg/crpo/crpo-verticals/grant-management/grand-challenge">CyberSG Research and Development Programme Office (CRPO) Grand Challenge</a>. 2024 - 2027. Collaborator.
+<a href="https://www.ntu.edu.sg/crpo/crpo-verticals/grant-management/grand-challenge">CyberSG Research and Development Programme Office (CRPO) Grand Challenge</a>. 2024 - 2027. Technical Lead of the A*STAR Team.
 </li><br>
 <li>
 <b><a href="https://aisingapore.org/development-of-stable-robust-and-secure-intelligent-systems-for-autonomous-vehicles/#:~:text=This%20project%20will%20harness%20the,adversarial%20attacks%20in%20complex%20environments.">Development of Stable Robust and Secure Intelligent Systems for Autonomous Vehicles</a></b><br>
@@ -16,7 +16,7 @@ AI Singapore <a href="https://connect.aisingapore.org/2023/07/s20m-research-fund
 </li><br>
 <li>  
 <b>Assessment of Robustness of Computer Vision Models</b><br>
-Singapore Aerospace Programme, 2022 - 2024. Principal Investigator.
+Singapore Aerospace Programme, 2023 - 2025. Principal Investigator.
 </li><br>
 <li>
 <b><a href="https://aisingapore.org/ottc-call-awardees/rapier-radiology-pathology-information-exchange-resource/">RAPIER - Radiology Pathology Information Exchange Resource</a></b><br>
