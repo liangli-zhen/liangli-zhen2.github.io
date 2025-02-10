@@ -16,16 +16,6 @@ Member of the <a href="http://www.cs.bham.ac.uk/~limx/MaOP.html">IEEE Computatio
 Ex-Member of the Executive Area Chair Committee (EACC) for <a href="http://valser.org/article-364-1.html">Vision And Learning SEminar (VALSE)</a>
 
 Research group leader (I lead a vibrant AI safety research group comprising motivated scientists and engineers)
-<ul>
-<li>Dr Shaohua Li (Senior Scientist)</li>
-<li>Dr Xiaobing Sun (Senior Scientist)</li>
-<li>Dr Yan Wang (Research Scientist)</li>
-<li>Dr Zizhou Wang (Research Scientist)</li>
-<li>Dr Bingjie Wu (Research Scientist)</li>
-<li>Dr Yuhuan Wu (Research Scientist)</li>
-<li>Xiaoman Zhang (Research Engineer)</li>
-<li>Menghan Zhou (Research Engineer)</li>
-</ul>
 
 Student supervisor
 <ul>
