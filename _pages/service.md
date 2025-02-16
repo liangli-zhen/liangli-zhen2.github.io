@@ -11,11 +11,11 @@ horizontal: false
 
 Senior Member of the IEEE
 	
+Research group leader (I lead a vibrant AI safety research group comprising motivated scientists and engineers)
+
 Member of the <a href="http://www.cs.bham.ac.uk/~limx/MaOP.html">IEEE Computational Intelligence Society Task Force on Many-Objective Optimisation</a>
 
 Ex-Member of the Executive Area Chair Committee (EACC) for <a href="http://valser.org/article-364-1.html">Vision And Learning SEminar (VALSE)</a>
-
-Research group leader (I lead a vibrant AI safety research group comprising motivated scientists and engineers)
 
 Student supervisor
 <ul>
